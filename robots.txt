@@ -1,0 +1,21 @@
+# Vaagai Green Farm - Robots Configuration
+# Deployed on Vercel
+
+User-agent: *
+Allow: /
+Disallow: /assets/documents/
+Disallow: /admin/
+Disallow: /api/
+
+# Block AI training bots
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Crawl delay for polite crawling (uncomment if needed)
+# Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://vaagai-green-farm.vercel.app/sitemap.xml
