@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- SEO Meta Tags for 404 Page (Helps retain user engagement) -->
+    <title>Page Not Found | Vaagai Green Farm – Let's Get You Back to Greener Pastures</title>
+    <meta name="description" content="404 error: The page you're looking for couldn't be found. Our little plant is thirsty for water and the right URL. Return to Vaagai Green Farm's homepage for fresh organic veggies and sustainable farming.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="keywords" content="404 error, page not found, broken link, Vaagai Green Farm, organic farm website, sustainable agriculture, missing page">
+    
+    <!-- Open Graph (to maintain brand consistency if shared) -->
+    <meta property="og:title" content="404 - Page Not Found | Vaagai Green Farm">
+    <meta property="og:description" content="Oops! That page seems to have wandered off. Let our thirsty plant guide you back to organic vegetables, workshops, and farm updates.">
+    <meta property="og:image" content="https://vaagaigreenfarm.example/404-plant.jpg">
+    <meta property="og:url" content="https://vaagaigreenfarm.com/404.html">
+    <meta property="og:type" content="website">
+    
+    <link rel="canonical" href="https://vaagaigreenfarm.com/index.html">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <style>
+        /* Plant animation - "waiting for water" with gentle droop & bounce */
+        .thirsty-plant {
+            font-size: 7rem;
+            display: inline-block;
+            animation: thirstyWobble 2.2s ease-in-out infinite, sadDroop 3s infinite alternate;
+            transform-origin: bottom center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        @keyframes thirstyWobble {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            25% { transform: translateY(6px) rotate(3deg); }
+            75% { transform: translateY(-4px) rotate(-2deg); }
+        }
+        
+        @keyframes sadDroop {
+            0% { filter: drop-shadow(0 0 2px #cbd5e1); transform: rotate(0deg) scale(1); }
+            100% { transform: rotate(6deg) scale(0.98); filter: drop-shadow(0 5px 8px rgba(0,0,0,0.1)); }
+        }
+        
+        /* Water drop animation (hover effect) */
+        .water-drop {
+            position: absolute;
+            background: #3b82f6;
+            width: 12px;
+            height: 20px;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            opacity: 0;
+            animation: dropFall 1s ease-out forwards;
+            pointer-events: none;
+            z-index: 10;
+        }
+        
+        @keyframes dropFall {
+            0% { opacity: 0.9; transform: translateY(0) scale(1); }
+            70% { opacity: 0.6; transform: translateY(60px) scale(0.8); }
+            100% { opacity: 0; transform: translateY(100px) scale(0.5); }
+        }
+        
+        /* Floating elements background */
+        .floating-sad-leaves {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .float-sad-leaf {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0.15;
+            animation: floatSlow 12s infinite linear;
+        }
+        @keyframes floatSlow {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0.1; }
+            100% { transform: translateY(-20vh) rotate(360deg); opacity: 0.25; }
+        }
+        
+        /* Social floating bar (existing style) */
+        .floating-social-bar {
+            position: fixed;
+            right: 20px;
+            bottom: 30px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .float-social-icon {
+            width: 54px;
+            height: 54px;
+            background: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+            transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            text-decoration: none;
+            font-size: 28px;
+        }
+        .float-social-icon:hover {
+            transform: translateY(-8px) scale(1.07);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.25);
+        }
+        .float-wa { background: #25D366; color: white; }
+        .float-fb { background: #1877F2; color: white; }
+        .float-ig { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); color: white; }
+        .float-li { background: #0A66C2; color: white; }
+        .float-social-icon::after {
+            content: attr(aria-label);
+            position: absolute;
+            right: 70px;
+            background: #1f2937;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 500;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s;
+            font-family: 'Poppins', sans-serif;
+        }
+        .float-social-icon:hover::after {
+            opacity: 1;
+        }
+        
+        /* interactive button and suggestions */
+        .suggestion-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .suggestion-link {
+            background: rgba(34,197,94,0.1);
+            padding: 0.6rem 1.2rem;
+            border-radius: 60px;
+            color: #15803d;
+            font-weight: 500;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        .suggestion-link:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+        .soil-water-msg {
+            font-size: 0.9rem;
+            background: rgba(0,0,0,0.03);
+            padding: 0.5rem 1rem;
+            border-radius: 60px;
+            display: inline-block;
+        }
+        .plant-container {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Decorative floating leaves (background ambiance) -->
+<div class="floating-sad-leaves">
+    <div class="float-sad-leaf" style="left: 5%; animation-duration: 18s;">🍂</div>
+    <div class="float-sad-leaf" style="left: 20%; animation-duration: 14s; animation-delay: 2s;">🌿</div>
+    <div class="float-sad-leaf" style="left: 70%; animation-duration: 20s; animation-delay: 1s;">🍃</div>
+    <div class="float-sad-leaf" style="left: 85%; animation-duration: 16s;">🌱</div>
+    <div class="float-sad-leaf" style="left: 45%; animation-duration: 22s; animation-delay: 3s;">🍂</div>
+</div>
+
+<!-- Main 404 Content with animated thirsty plant (Waiting for water) -->
+<section style="min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%); position: relative; overflow: hidden;">
+    <div style="text-align: center; padding: 2rem; max-width: 800px; z-index: 2;">
+        
+        <!-- Animated 404 Number -->
+        <div class="animate__animated animate__fadeInDown">
+            <span style="font-size: 6rem; font-weight: 800; background: linear-gradient(135deg, #22c55e, #84cc16); -webkit-background-clip: text; background-clip: text; color: transparent; letter-spacing: 8px;">404</span>
+        </div>
+        
+        <!-- Thirsty Plant Animation (Waiting for water) -->
+        <div class="plant-container" id="thirstyPlantContainer">
+            <div class="thirsty-plant" id="thirstyPlantEmoji">🌵💧🥀</div>
+            <div style="margin-top: 0.5rem; font-size: 0.9rem; font-weight: 500; color: #b91c1c;" class="animate__animated animate__pulse animate__infinite">🌡️ "Water me... I'm thirsty!"</div>
+        </div>
+        
+        <h2 class="animate__animated animate__fadeInUp" style="font-size: 2rem; color: var(--dark-color); margin: 1rem 0 0.5rem;">
+            Oops! Page Went On A Farm Break
+        </h2>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s" style="font-size: 1.1rem; color: #4b5563; margin-bottom: 0.5rem;">
+            Looks like this page dried up like a thirsty plant. But don't worry — our farm is still blooming with fresh organic veggies, workshops & honey.
+        </p>
+        <div class="soil-water-msg animate__animated animate__fadeInUp animate__delay-1s">
+            <i class="fas fa-tint"></i> Click the plant to give it a virtual water drop!
+        </div>
+        
+        <!-- Action Buttons -->
+        <div class="animate__animated animate__zoomIn animate__delay-2s" style="margin: 2rem 0 1.5rem;">
+            <a href="index.html" class="btn btn-primary" style="margin-right: 1rem;"><i class="fas fa-home"></i> Back to Home</a>
+            <a href="contact.html" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contact Support</a>
+        </div>
+        
+        <!-- Smart suggestion links for lost visitors (SEO engagement and low bounce) -->
+        <div class="suggestion-links">
+            <a href="products.html" class="suggestion-link"><i class="fas fa-seedling"></i> Our Services</a>
+            <a href="about.html" class="suggestion-link"><i class="fas fa-leaf"></i> About the Farm</a>
+            <a href="contact.html" class="suggestion-link"><i class="fas fa-calendar-alt"></i> Book a Workshop</a>
+            <a href="index.html#features" class="suggestion-link"><i class="fas fa-apple-alt"></i> Fresh Veggies</a>
+        </div>
+        
+        <!-- Little quote for brand personality -->
+        <p style="margin-top: 3rem; font-size: 0.85rem; color: #6c757d;"><i class="fas fa-hand-peace"></i> Meanwhile, our plants are waiting for some water — help us grow by exploring the right path.</p>
+    </div>
+</section>
+
+<!-- Floating Social Icons (WhatsApp, FB, IG, LinkedIn) same as other pages for consistency -->
+<div class="floating-social-bar">
+    <a href="https://wa.me/919655118268?text=Hello%20Vaagai%20Green%20Farm!%20I%20found%20a%20404%20page%20but%20would%20like%20to%20know%20about%20organic%20vegetables%20and%20workshops" 
+       target="_blank" rel="noopener noreferrer" class="float-social-icon float-wa" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-fb" aria-label="Facebook Page">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-ig" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/company/vaagai-green-farm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-li" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+</div>
+
+<!-- Structured data for 404 (helps with soft navigation) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "404 Error Page - Vaagai Green Farm",
+  "description": "Custom 404 page with plant animation and site navigation to help users return to main content.",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://vaagaigreenfarm.com/"
+    }]
+  }
+}
+</script>
+
+<!-- JavaScript for water drop effect on plant click & dynamic fun message -->
+<script>
+    (function() {
+        // Get the plant container and emoji element
+        const plantContainer = document.getElementById('thirstyPlantContainer');
+        const plantEmoji = document.getElementById('thirstyPlantEmoji');
+        
+        // Function to create water drops on click/tap
+        function createWaterDrop(x, y) {
+            const drop = document.createElement('div');
+            drop.classList.add('water-drop');
+            drop.style.left = (x - 10) + 'px';
+            drop.style.top = (y - 15) + 'px';
+            document.body.appendChild(drop);
+            setTimeout(() => {
+                drop.remove();
+            }, 1000);
+        }
+        
+        // On plant click: animate happiness, change emoji temporarily, throw water drops
+        if (plantContainer) {
+            plantContainer.addEventListener('click', (e) => {
+                // Get click coordinates relative to viewport for water drop effect
+                const rect = plantContainer.getBoundingClientRect();
+                const centerX = rect.left + rect.width / 2;
+                const centerY = rect.top + rect.height / 2;
+                
+                // Create 3 water drops for joy
+                for (let i = 0; i < 5; i++) {
+                    const offsetX = (Math.random() - 0.5) * 40;
+                    const offsetY = (Math.random() - 0.5) * 30;
+                    setTimeout(() => {
+                        createWaterDrop(centerX + offsetX, centerY + offsetY - 10);
+                    }, i * 80);
+                }
+                
+                // Change plant to happy hydrated version
+                const originalText = plantEmoji.innerText;
+                plantEmoji.innerText = "🌱💧🌿😊";
+                plantEmoji.style.animation = "none";
+                plantEmoji.style.transform = "scale(1.2)";
+                setTimeout(() => {
+                    plantEmoji.innerText = "🌿💧🌱✨";
+                }, 800);
+                setTimeout(() => {
+                    plantEmoji.innerText = originalText;
+                    plantEmoji.style.animation = "thirstyWobble 2.2s ease-in-out infinite, sadDroop 3s infinite alternate";
+                    plantEmoji.style.transform = "";
+                }, 2200);
+                
+                // Change thirsty message temporarily
+                const msgDiv = document.querySelector('.soil-water-msg');
+                if (msgDiv) {
+                    const oldHtml = msgDiv.innerHTML;
+                    msgDiv.innerHTML = '<i class="fas fa-smile-wink"></i> Yay! You watered the plant! 🌟 Now explore our farm!';
+                    setTimeout(() => {
+                        msgDiv.innerHTML = oldHtml;
+                    }, 2800);
+                }
+            });
+        }
+        
+        // Additional animated enhancement: simulate a subtle "water me" text pulsation
+        const thirstyMsg = document.querySelector('.thirsty-plant + div');
+        if(thirstyMsg) {
+            setInterval(() => {
+                if(!thirstyMsg.matches(':hover')) {
+                    thirstyMsg.style.opacity = '0.7';
+                    setTimeout(() => thirstyMsg.style.opacity = '1', 600);
+                }
+            }, 2000);
+        }
+        
+        // Hamburger menu functionality if exists (we simulate navbar but no nav on 404 usually, but we can include fallback)
+        // But this page doesn't have navbar; however any external links will still work.
+        // Smooth scroll for any potential hash links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if(targetId !== "#" && targetId.length > 1) {
+                    const targetElem = document.querySelector(targetId);
+                    if(targetElem) {
+                        e.preventDefault();
+                        targetElem.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+        
+        // Optional: generate floating water hint after load
+        console.log("Thirsty plant 404 page ready — give it a click!");
+    })();
+</script>
+
+<!-- Include standard scripts for animations (fallback) -->
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/scroll-animate.js"></script>
+
+<!-- Extra micro interaction: background leaf parallax disabled but leaves are there -->
+</body>
+</html>
