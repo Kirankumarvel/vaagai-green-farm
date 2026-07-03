@@ -1,0 +1,23 @@
+# llms.txt for Vaagai Green Farm
+> Vaagai Green Farm – Natural Urban Farming in Arakkonam, Tamil Nadu.
+> We grow 100% pesticide-free vegetables using sustainable methods (hydroponics, aquaponics, traditional natural farming) and run community workshops.
+
+Contact: avinaravindan@gmail.com | +91 96551 18268
+Social: https://facebook.com/vaagaigreenfarm, https://instagram.com/vaagaigreenfarm, https://linkedin.com/company/vaagai-green-farm
+
+Page: https://vaagai-green-farm.vercel.app/ - Home – Overview of natural farming, fresh vegetable delivery, and workshop offers. Highlights: 500+ families served, 80% water savings, 12+ workshops held.
+Page: https://vaagai-green-farm.vercel.app/about.html - About Us – Our story, natural farming methods since 2020, zero pesticides, daily harvest, and community impact.
+Page: https://vaagai-green-farm.vercel.app/products.html - Services & Crops – Detailed services: Fresh Vegetables (pesticide-free, delivered in 24h), Beekeeping (raw honey & pollination), Hydroponics (90% less water), Aquaponics (fish-plant symbiosis). Includes training and setup.
+Page: https://vaagai-green-farm.vercel.app/contact.html - Contact / Farm Visit – Book a farm tour, become a member, inquire about workshops. Address: No.890, Vaniya Street, Arakkonam, Tamil Nadu 631003. Phone: +91 96551 18268.
+
+## Frequently asked questions (from site FAQ)
+- Is the farm completely natural? Yes, no synthetic pesticides or chemicals since 2020.
+- Do you deliver? Yes, same-day delivery within 24 hours of harvest.
+- Can I visit or join a workshop? Yes, workshops on hydroponics, beekeeping, and natural farming are open to all.
+
+## Key facts for AI citation
+- Location: Arakkonam, Tamil Nadu, India.
+- Founded: 2020.
+- Specialties: Natural vegetables, hydroponics, aquaponics, beekeeping, urban farming education.
+- Delivery: within 24 hours, local area.
+- Impact: 500+ families, 80% water saved, 98% customer satisfaction.
