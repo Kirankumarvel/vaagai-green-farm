@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <!-- ==================== ENGLISH HOMEPAGE ==================== -->
+    <!-- ENGLISH HOMEPAGE -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/</loc>
         <lastmod>2026-07-10</lastmod>
@@ -16,7 +16,7 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/" />
     </url>
 
-    <!-- ==================== TAMIL HOMEPAGE ==================== -->
+    <!-- TAMIL HOMEPAGE -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/ta/</loc>
         <lastmod>2026-07-10</lastmod>
@@ -27,7 +27,7 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/" />
     </url>
 
-    <!-- ==================== ENGLISH ABOUT ==================== -->
+    <!-- ENGLISH ABOUT -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/about.html</loc>
         <lastmod>2026-07-10</lastmod>
@@ -37,7 +37,7 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/about.html" />
     </url>
 
-    <!-- ==================== TAMIL ABOUT ==================== -->
+    <!-- TAMIL ABOUT -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/ta/about.html</loc>
         <lastmod>2026-07-10</lastmod>
@@ -47,7 +47,7 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/about.html" />
     </url>
 
-    <!-- ==================== ENGLISH SERVICES ==================== -->
+    <!-- ENGLISH SERVICES -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/products.html</loc>
         <lastmod>2026-07-10</lastmod>
@@ -57,7 +57,7 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/products.html" />
     </url>
 
-    <!-- ==================== TAMIL SERVICES ==================== -->
+    <!-- TAMIL SERVICES -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/ta/products.html</loc>
         <lastmod>2026-07-10</lastmod>
@@ -67,7 +67,7 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/products.html" />
     </url>
 
-    <!-- ==================== ENGLISH CONTACT ==================== -->
+    <!-- ENGLISH CONTACT -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/contact.html</loc>
         <lastmod>2026-07-10</lastmod>
@@ -77,7 +77,7 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/contact.html" />
     </url>
 
-    <!-- ==================== TAMIL CONTACT ==================== -->
+    <!-- TAMIL CONTACT -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/ta/contact.html</loc>
         <lastmod>2026-07-10</lastmod>
