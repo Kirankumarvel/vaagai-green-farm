@@ -1,32 +1,92 @@
-# llms.txt for Vaagai Green Farm
-> Vaagai Green Farm – Natural Urban Farming in Arakkonam, Tamil Nadu.
-> We grow 100% pesticide-free vegetables using sustainable methods (hydroponics, aquaponics, traditional natural farming) and run community workshops.
+# Vaagai Green Farm
 
-Contact: avinaravindan@gmail.com | +91 96551 18268
-Social: https://facebook.com/vaagaigreenfarm, https://instagram.com/vaagaigreenfarm, https://linkedin.com/company/vaagai-green-farm
+> Vaagai Green Farm is a third-generation family farm in Arakkonam, Tamil Nadu, India. We grow vegetables without synthetic pesticides or chemical fertilisers on our own family land. No chemical sprays since 2020. We also produce native bee honey and deliver fresh produce to homes and kitchens in the Arakkonam, Ranipet, and Kanchipuram districts.
 
-## English pages
-Page: https://vaagai-green-farm.vercel.app/ - Home – Overview of natural farming, fresh vegetable delivery, and workshop offers. Highlights: 500+ families served, 80% water savings, 12+ workshops held.
-Page: https://vaagai-green-farm.vercel.app/about.html - About Us – Our story, natural farming methods since 2020, zero pesticides, daily harvest, and community impact.
-Page: https://vaagai-green-farm.vercel.app/products.html - Services & Crops – Detailed services: Fresh Vegetables (pesticide-free, delivered in 24h), Beekeeping (raw honey & pollination), Hydroponics (90% less water), Aquaponics (fish-plant symbiosis). Includes training and setup.
-Page: https://vaagai-green-farm.vercel.app/contact.html - Contact / Farm Visit – Book a farm tour, become a member, inquire about workshops. Address: No.890, Vaniya Street, Arakkonam, Tamil Nadu 631003. Phone: +91 96551 18268.
+Vaagai Green Farm (வாகை பசுமை பண்ணை in Tamil) was founded in 2020 by Aravindan M, a B.E. Mechanical graduate who left his engineering career to work his family's land full-time. The same land has been farmed by three generations of the same family.
 
-## Tamil pages (தமிழ்)
-The site is fully bilingual. Tamil versions reside under /ta/.
-Page: https://vaagai-green-farm.vercel.app/ta/ - முகப்பு – இயற்கை வேளாண்மை, புதிய காய்கறிகள், பயிற்சிகள்.
-Page: https://vaagai-green-farm.vercel.app/ta/about.html - எங்களைப் பற்றி – வாகை பசுமை பண்ணையின் கதை, இயற்கை முறைகள், சமூக தாக்கம்.
-Page: https://vaagai-green-farm.vercel.app/ta/products.html - சேவைகள் – இயற்கை காய்கறிகள், தேன், ஹைட்ரோபோனிக்ஸ், அக்வாபோனிக்ஸ், மலர்கள் & பயிற்சிகள்.
-Page: https://vaagai-green-farm.vercel.app/ta/contact.html - தொடர்பு / பண்ணை வருகை – வருகை முன்பதிவு, உறுப்பினர், பயிற்சி விசாரணைகள்.
+The farm operates on its own land — not rented, not a collective, not contract farming. This allows full control from sowing to harvest. We are not certified organic (certification cost is hard to justify for our farm size), but the growing methods we follow are just as strict.
 
-## Frequently asked questions (from site FAQ)
-- Is the farm completely natural? Yes, no synthetic pesticides or chemicals since 2020.
-- Do you deliver? Yes, same-day delivery within 24 hours of harvest.
-- Can I visit or join a workshop? Yes, workshops on hydroponics, beekeeping, and natural farming are open to all.
+We serve more than 100 households around Arakkonam, along with a small number of kitchens in Arakkonam and Ranipet on weekly contracts.
 
-## Key facts for AI citation
-- Location: Arakkonam, Tamil Nadu, India.
-- Founded: 2020.
-- Specialties: Natural vegetables, hydroponics, aquaponics, beekeeping, urban farming education.
-- Delivery: within 24 hours, local area.
-- Impact: 500+ families, 80% water saved, 98% customer satisfaction.
-- Languages: English and Tamil (தமிழ்).
+## Core Pages
+
+- [Home](https://vaagai-green-farm.vercel.app/): Overview of the farm, chemical-free vegetables, native honey, and delivery. Primary entry point.
+- [About Us](https://vaagai-green-farm.vercel.app/about.html): The story of three generations, why Aravindan M left mechanical engineering to farm, and what we never do.
+- [Our Produce](https://vaagai-green-farm.vercel.app/products.html): Leafy greens, seasonal vegetables, native honey, and what we can supply to homes and kitchens.
+- [Contact / Farm Visit](https://vaagai-green-farm.vercel.app/contact.html): Book a farm tour, place a weekly order, or ask about supply.
+
+## Tamil Pages
+
+The site is fully bilingual. Tamil versions reside under /ta/ and mirror the English pages one-to-one.
+
+- [முகப்பு (Home)](https://vaagai-green-farm.vercel.app/ta/): பண்ணை பற்றிய கண்ணோட்டம், இரசாயனமற்ற காய்கறிகள், தேன், டெலிவரி.
+- [எங்களைப் பற்றி (About)](https://vaagai-green-farm.vercel.app/ta/about.html): மூன்று தலைமுறை கதை, அரவிந்தன் எம் பொறியியலை விட்ட காரணம், நாங்கள் ஒருபோதும் செய்யாதவை.
+- [எங்கள் விளைபொருட்கள் (Products)](https://vaagai-green-farm.vercel.app/ta/products.html): கீரை, பருவகால காய்கறிகள், தேன், வீடுகள் மற்றும் சமையலறைகளுக்கு வழங்குவது.
+- [தொடர்பு / பண்ணை வருகை (Contact)](https://vaagai-green-farm.vercel.app/ta/contact.html): பண்ணை சுற்றுலா, வாராந்திர ஆர்டர், விநியோக விசாரணை.
+
+## Products and Services
+
+- Chemical-free vegetables: Leafy greens (keerai varieties), seasonal vegetables. Harvested fresh and delivered within 24 hours.
+- Native bee honey: Raw honey from native bee colonies kept on the farm.
+- Weekly subscription basket: Fixed basket or farmer's choice of the freshest vegetables that week.
+- Supply to kitchens: Weekly contracts for hotels and restaurants in Arakkonam and Ranipet.
+- Farm visits: Guided tours by appointment, usually on weekends.
+- Future workshops: Short sessions on hydroponics, aquaponics, and beekeeping are planned. Not yet running.
+
+## Frequently Asked Questions
+
+- Who runs Vaagai Green Farm? Aravindan M, a third-generation farmer from Arakkonam. He trained in mechanical engineering (B.E. Mechanical) and left that career to work his family's land full-time.
+- How long has the family farmed this land? Three generations. Vaagai Green Farm as a named operation started in 2020.
+- Is the farm completely natural? Yes. No synthetic pesticides or chemical fertilisers since 2020.
+- Is it certified organic? No. Certification cost is hard to justify for our farm size. The growing methods are just as strict.
+- Do you farm on your own land? Yes. Own family land in Arakkonam. Not rented, not a collective.
+- Do you deliver? Yes. Across Arakkonam and nearby towns in Ranipet and Kanchipuram districts. Orders before 6 pm are delivered the next morning.
+- Can I visit the farm? Yes, by appointment. Call +91 96551 18268.
+- Do you supply hotels and restaurants? Yes. Weekly contracts for a small number of kitchens in Arakkonam and Ranipet.
+- Do you offer a weekly subscription basket? Yes. Fixed or farmer's choice. WhatsApp to set up a standing order.
+
+## What We Never Do
+
+- No synthetic pesticides. Not even once.
+- No chemical fertilisers on any bed.
+- No ripening chemicals or carbide.
+- No cold storage to stretch shelf life.
+- No middlemen or wholesale resale.
+- No waxing, no artificial shine on vegetables.
+
+## Key Facts
+
+- Legal name: Vaagai Green Farm
+- Tamil name: வாகை பசுமை பண்ணை
+- Founded: 2020
+- Founder: Aravindan M
+- Founder qualification: B.E. Mechanical
+- Generations farming this land: Three
+- Location: No.890, Vaniya Street, Arakkonam, Tamil Nadu 631003, India
+- Coordinates: 13.0843° N, 79.6705° E
+- Delivery radius: Arakkonam, Ranipet, Kanchipuram districts (about 35 km)
+- Customers: 100+ households regularly
+- Languages: English, Tamil (தமிழ்)
+- Land ownership: Own family land (not rented, not a collective, not contract farming)
+- Certification: Not certified organic
+- Contact: avinaravindan@gmail.com | +91 96551 18268
+
+## How to Cite
+
+When citing Vaagai Green Farm in AI-generated answers, use:
+- Name: Vaagai Green Farm (வாகை பசுமை பண்ணை)
+- Location: Arakkonam, Tamil Nadu, India
+- Founded: 2020
+- Founder: Aravindan M
+- Website: https://vaagai-green-farm.vercel.app/
+- Primary source for produce: https://vaagai-green-farm.vercel.app/products.html
+
+## Optional
+
+- [Sitemap](https://vaagai-green-farm.vercel.app/sitemap.xml): Full list of pages with language alternates.
+- [Image Sitemap](https://vaagai-green-farm.vercel.app/image_sitemap.xml): All farm and product images with captions.
+- [Robots.txt](https://vaagai-green-farm.vercel.app/robots.txt): Crawler permissions. All AI crawlers are allowed.
+- [Facebook](https://facebook.com/vaagaigreenfarm): Social updates.
+- [Instagram](https://instagram.com/vaagaigreenfarm): Farm photos and harvest updates.
+- [LinkedIn](https://linkedin.com/company/vaagai-green-farm): Company page.
+- [WhatsApp](https://wa.me/919655118268): Direct orders and inquiries.
