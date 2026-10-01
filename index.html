@@ -7,32 +7,33 @@
     <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <title>Vaagai Green Farm | Chemical-Free Vegetables in Arakkonam, Tamil Nadu</title>
-    <meta name="description" content="We grow vegetables without chemical sprays in Arakkonam, Tamil Nadu. Same-day delivery, plus workshops on hydroponics, aquaponics and beekeeping.">
-    <meta name="keywords" content="natural farming Arakkonam, chemical-free vegetables Tamil Nadu, hydroponics workshop Arakkonam, aquaponics setup, beekeeping training, farm fresh vegetables Ranipet, urban farming Tamil Nadu">
+    <meta name="description" content="Third-generation family farm in Arakkonam. The farmer left mechanical engineering to work the land. Chemical-free vegetables picked fresh and delivered the same day.">
+    <meta name="keywords" content="natural farming Arakkonam, chemical-free vegetables Tamil Nadu, third generation farmer Tamil Nadu, farm fresh vegetables Ranipet, raw honey Arakkonam, farm direct vegetables Kanchipuram">
     <meta name="author" content="Vaagai Green Farm">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
     <meta name="language" content="English">
     <meta name="theme-color" content="#1a3a3a">
+    <meta name="color-scheme" content="light">
     <meta name="geo.region" content="IN-TN">
     <meta name="geo.placename" content="Arakkonam">
     <meta name="geo.position" content="13.0843;79.6705">
     <meta name="ICBM" content="13.0843, 79.6705">
 
     <meta property="og:site_name" content="Vaagai Green Farm">
-    <meta property="og:title" content="Vaagai Green Farm | Vegetables Grown Without Chemicals">
-    <meta property="og:description" content="Small farm in Arakkonam, Tamil Nadu. Vegetables picked the morning they reach you, plus workshops on hydroponics, aquaponics and beekeeping.">
+    <meta property="og:title" content="Vaagai Green Farm | A Third-Generation Farmer in Arakkonam">
+    <meta property="og:description" content="Left mechanical engineering to farm his family's land in Arakkonam. Vegetables grown without chemical sprays, picked the morning they reach you.">
     <meta property="og:image" content="https://vaagai-green-farm.vercel.app/images/farm-thumb-1.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Vegetable harvest and hydroponic greenhouse at Vaagai Green Farm">
+    <meta property="og:image:alt" content="Vegetable harvest and greenhouse at Vaagai Green Farm, Arakkonam">
     <meta property="og:url" content="https://vaagai-green-farm.vercel.app/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Vaagai Green Farm | Chemical-Free Vegetables, Arakkonam">
-    <meta name="twitter:description" content="Vegetables grown without chemical sprays and delivered the same day. Workshops on hydroponics, aquaponics and beekeeping.">
+    <meta name="twitter:title" content="Vaagai Green Farm | Third-Generation Farmer, Arakkonam">
+    <meta name="twitter:description" content="Mechanical engineer turned full-time farmer. Chemical-free vegetables, grown on his own family land.">
     <meta name="twitter:image" content="https://vaagai-green-farm.vercel.app/images/twitter-card.jpg">
 
     <link rel="canonical" href="https://vaagai-green-farm.vercel.app/">
@@ -55,7 +56,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <style>
-        /* ===== LANGUAGE SWITCHER (fixed height so navbar can align to it) ===== */
+        html { color-scheme: light; }
+
+        /* ===== LANGUAGE SWITCHER ===== */
         .lang-switch {
             background: #143838;
             color: white;
@@ -70,35 +73,25 @@
             top: 0;
             z-index: 1001;
         }
-        .lang-switch a {
-            color: #ccc;
-            text-decoration: none;
-            font-weight: 500;
-        }
+        .lang-switch a { color: #d6ded6; text-decoration: none; font-weight: 500; }
         .lang-switch a.active-lang { color: #22c55e; font-weight: 700; }
         .lang-switch a:hover { color: white; }
+        .lang-switch span { color: #4b6b6b; }
 
         /* ===== CORE STYLES ===== */
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { -webkit-text-size-adjust: 100%; }
-        body { font-family: 'Poppins', sans-serif; overflow-x: hidden; }
+        body { font-family: 'Poppins', sans-serif; overflow-x: hidden; background: #ffffff; color: #1f3030; }
 
         .cursor { width:20px; height:20px; border:2px solid #22c55e; border-radius:50%; position:fixed; pointer-events:none; z-index:9999; transition:0.1s, width 0.2s, height 0.2s; transform:translate(-50%,-50%); }
         .cursor.hover { width:40px; height:40px; background:rgba(34,197,94,0.15); }
         @media (hover:none) and (pointer:coarse) { .cursor { display:none; } }
 
-        /* Navbar sits exactly below the language bar */
         .navbar {
-            position: fixed;
-            top: 2.4rem;
-            left: 0;
-            width: 100%;
-            background: rgba(26,58,58,0.92);
-            -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            padding: 1rem 2rem;
-            transition: box-shadow 0.3s;
+            position: fixed; top: 2.4rem; left: 0; width: 100%;
+            background: rgba(20,48,48,0.94);
+            -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+            z-index: 1000; padding: 1rem 2rem; transition: box-shadow 0.3s;
         }
         .nav-container { max-width:1200px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
         .logo-text { font-size:1.5rem; font-weight:700; color:white; display:inline-flex; align-items:center; gap:0.5rem; white-space:nowrap; }
@@ -109,41 +102,63 @@
         .hamburger { display:none; flex-direction:column; cursor:pointer; background:none; border:0; padding:4px; }
         .bar { width:25px; height:3px; background:white; margin:3px 0; transition:0.3s; border-radius:2px; }
 
-        /* Focus ring for keyboard users */
         a:focus-visible, button:focus-visible, .btn:focus-visible,
         .btn-magnetic:focus-visible, .nav-link:focus-visible,
         .hamburger:focus-visible, .social-icon-rounded:focus-visible,
-        .float-social-icon:focus-visible {
-            outline: 2px solid #22c55e;
-            outline-offset: 3px;
-            border-radius: 4px;
+        .float-social-icon:focus-visible, .faq-toggle:focus-visible {
+            outline: 2px solid #22c55e; outline-offset: 3px; border-radius: 4px;
         }
 
         /* Hero */
         .hero {
             position:relative;
-            background:linear-gradient(135deg,#1a3a3a,#2d5a5a);
+            background:linear-gradient(135deg,#143030,#1e4a4a);
             overflow:hidden;
-            min-height:100vh;
-            min-height:100svh;
-            display:flex;
-            align-items:center;
-            justify-content:center;
+            min-height:100vh; min-height:100svh;
+            display:flex; align-items:center; justify-content:center;
             padding:7rem 1rem 4rem;
         }
-        .hero::before { content:''; position:absolute; top:0; left:0; width:100%; height:100%; background-image:url('images/hero-farm-overview.jpg'); background-size:cover; background-position:center; opacity:0.3; pointer-events:none; animation:kenBurns 20s ease-in-out infinite alternate; }
+        .hero::before {
+            content:''; position:absolute; top:0; left:0; width:100%; height:100%;
+            background-image:url('images/hero-farm-overview.jpg');
+            background-size:cover; background-position:center;
+            opacity:0.35; pointer-events:none;
+            animation:kenBurns 20s ease-in-out infinite alternate;
+        }
+        .hero::after {
+            content:''; position:absolute; inset:0;
+            background:linear-gradient(180deg, rgba(10,30,30,0.4) 0%, rgba(10,30,30,0.2) 45%, rgba(10,30,30,0.6) 100%);
+            pointer-events:none;
+        }
         @keyframes kenBurns { 0%{ transform:scale(1) translate(0,0); } 100%{ transform:scale(1.1) translate(-5px,-3px); } }
-        .hero-glass { background:rgba(255,255,255,0.08); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px); border-radius:32px; padding:3rem; border:1px solid rgba(255,255,255,0.18); box-shadow:0 25px 45px rgba(0,0,0,0.15); max-width:900px; margin:0 auto; position:relative; z-index:2; }
+
+        .hero-glass {
+            background: rgba(12,36,36,0.68);
+            backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+            border-radius:32px; padding:3rem;
+            border:1px solid rgba(255,255,255,0.14);
+            box-shadow:0 25px 55px rgba(0,0,0,0.35);
+            max-width:900px; margin:0 auto; position:relative; z-index:2;
+        }
         .hero-content { text-align:center; color:white; }
-        .hero-title { font-size:3.5rem; line-height:1.15; margin-bottom:1rem; }
-        .hero-subtitle { font-size:1.2rem; opacity:0.9; margin-bottom:2rem; }
+        .hero-summary { font-size:1rem; color:#e8f8ee; margin-bottom:1.25rem; line-height:1.65; }
+        .hero-summary strong { color:#22c55e; }
+        .hero-tag {
+            background: rgba(34,197,94,0.18); border: 1px solid rgba(34,197,94,0.4);
+            color: #eaffea; padding: 0.5rem 1.4rem; border-radius: 50px;
+            display: inline-block; margin-bottom: 1.5rem; font-size: 0.9rem; font-weight: 500;
+        }
+        .hero-title { font-size:3.5rem; line-height:1.15; margin-bottom:1rem; color:#ffffff; text-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+        .hero-subtitle { font-size:1.15rem; color:#d4e6d4; margin:1.5rem 0; line-height:1.65; }
         .hero-buttons { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; }
         .btn { display:inline-block; padding:0.9rem 2.2rem; border-radius:50px; font-weight:600; text-decoration:none; transition:0.3s; border:none; cursor:pointer; }
-        .btn-primary { background:#22c55e; color:white; }
-        .btn-secondary { background:rgba(255,255,255,0.2); color:white; border:1px solid rgba(255,255,255,0.5); }
-        .trust-badge { display:flex; gap:2rem; justify-content:center; flex-wrap:wrap; margin-top:2rem; font-size:0.9rem; opacity:0.9; }
-        .trust-badge i { margin-right:0.3rem; color:#22c55e; }
-        .floating-elements .float-leaf { position:absolute; width:44px; height:44px; color:#22c55e; opacity:0.35; animation:float 6s ease-in-out infinite; }
+        .btn-primary { background:#22c55e; color:#062112; }
+        .btn-primary:hover { background:#1eae52; }
+        .btn-secondary { background:rgba(255,255,255,0.16); color:#ffffff; border:1px solid rgba(255,255,255,0.55); }
+        .btn-secondary:hover { background:rgba(255,255,255,0.24); }
+        .trust-badge { display:flex; gap:2rem; justify-content:center; flex-wrap:wrap; margin-top:2rem; font-size:0.9rem; color:#ffffff; }
+        .trust-badge i { margin-right:0.35rem; color:#22c55e; }
+        .floating-elements .float-leaf { position:absolute; width:44px; height:44px; color:#22c55e; opacity:0.4; animation:float 6s ease-in-out infinite; }
         .float-leaf svg { width:100%; height:100%; }
         .leaf1 { top:10%; left:5%; animation-delay:0s; }
         .leaf2 { top:20%; right:8%; animation-delay:2s; }
@@ -151,105 +166,354 @@
         @keyframes float { 0%,100%{ transform:translateY(0px); } 50%{ transform:translateY(-20px); } }
 
         .features { padding:5rem 2rem; background:#fff; }
-        .section-title { font-size:2.8rem; color:#1a3a3a; text-align:center; margin-bottom:3rem; line-height:1.2; }
+        .section-title { font-size:2.8rem; color:#1a3a3a; text-align:center; margin-bottom:1rem; line-height:1.2; }
+        .section-subtitle { text-align:center; color:#4a5e5e; max-width:640px; margin:0 auto 3rem; font-size:1.05rem; line-height:1.65; }
         .gradient-text { background:linear-gradient(135deg,#22c55e,#16a34a); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
         .features-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:2rem; max-width:1200px; margin:0 auto; }
-        .feature-card { position:relative; overflow:hidden; border-radius:24px; background:rgba(255,255,255,0.95); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); border:1px solid rgba(34,197,94,0.15); box-shadow:0 20px 35px rgba(34,197,94,0.08); padding:2rem 1.5rem; text-align:center; transform-style:preserve-3d; }
-        .feature-card::before { content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%; background:radial-gradient(circle at 50% 50%,rgba(34,197,94,0.3),transparent 60%); opacity:0; transition:0.4s; pointer-events:none; }
+        .feature-card {
+            position:relative; overflow:hidden; border-radius:24px;
+            background:rgba(255,255,255,0.98);
+            backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+            border:1px solid rgba(34,197,94,0.18);
+            box-shadow:0 20px 35px rgba(34,197,94,0.09);
+            padding:2rem 1.5rem; text-align:center; transform-style:preserve-3d;
+        }
+        .feature-card::before {
+            content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%;
+            background:radial-gradient(circle at 50% 50%,rgba(34,197,94,0.25),transparent 60%);
+            opacity:0; transition:0.4s; pointer-events:none;
+        }
         .feature-card:hover::before { opacity:1; }
-        .feature-icon { width:64px; height:64px; margin:0 auto 1.2rem; display:flex; align-items:center; justify-content:center; color:#16a34a; position:relative; z-index:3; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.08)); transition:0.3s; }
+        .feature-icon {
+            width:64px; height:64px; margin:0 auto 1.2rem;
+            display:flex; align-items:center; justify-content:center;
+            color:#15803d; position:relative; z-index:3;
+            filter:drop-shadow(0 4px 6px rgba(0,0,0,0.08)); transition:0.3s;
+        }
         .feature-icon svg { width:100%; height:100%; display:block; }
         .feature-card:hover .feature-icon { transform:scale(1.1) translateY(-3px); }
-        .feature-card h3 { font-size:1.7rem; color:#1a3a3a; margin-bottom:0.5rem; position:relative; z-index:2; }
-        .feature-card p { color:#444; position:relative; z-index:2; }
+        .feature-card h3 { font-size:1.6rem; color:#143030; margin-bottom:0.6rem; position:relative; z-index:2; }
+        .feature-card p { color:#3b4a4a; line-height:1.65; position:relative; z-index:2; }
 
-        .trust-section { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; background:linear-gradient(135deg,#f0faf4,#e3f5ea); border-radius:24px; padding:3rem 2rem; box-shadow:0 25px 45px rgba(0,50,20,0.05); margin:4rem auto; max-width:1200px; }
+        /* ===== STORY SECTION (animated reveal) ===== */
+        .story-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(180deg, #ffffff 0%, #f4fbf6 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .story-section::before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            right: -120px;
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(34,197,94,0.08), transparent 65%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .story-container {
+            max-width: 780px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        .story-eyebrow {
+            display: inline-block;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #15803d;
+            margin-bottom: 1.25rem;
+        }
+        .story-title {
+            font-size: 2.4rem;
+            color: #143030;
+            line-height: 1.3;
+            margin-bottom: 2.5rem;
+            font-weight: 700;
+        }
+        .story-title em { font-style: normal; color: #16a34a; }
+        .story-line {
+            font-size: 1.08rem;
+            color: #2d3d3d;
+            line-height: 1.85;
+            margin: 0 auto 1.5rem;
+            max-width: 680px;
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.9s ease, transform 0.9s ease;
+        }
+        .story-line.visible { opacity: 1; transform: translateY(0); }
+        .story-line strong { color: #143030; font-weight: 600; }
+        .story-quote {
+            font-size: 1.35rem;
+            font-weight: 500;
+            font-style: italic;
+            color: #143030;
+            line-height: 1.6;
+            margin: 3rem auto 0;
+            padding-top: 2rem;
+            max-width: 640px;
+            position: relative;
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 1s ease, transform 1s ease;
+        }
+        .story-quote.visible { opacity: 1; transform: translateY(0); }
+        .story-quote::before {
+            content: '';
+            display: block;
+            width: 48px;
+            height: 3px;
+            background: #22c55e;
+            margin: 0 auto 2rem;
+            border-radius: 2px;
+        }
+
+        /* ===== CTA BANNER (farmer story) ===== */
+        .cta-banner {
+            position: relative;
+            padding: 4.5rem 2rem;
+            background: linear-gradient(135deg, #103030 0%, #1c4848 100%);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+        .cta-banner::before {
+            content: '';
+            position: absolute; inset: 0;
+            background-image: url('images/hero-farm-overview.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+        .cta-banner::after {
+            content: '';
+            position: absolute; inset: 0;
+            background: linear-gradient(90deg, rgba(10,30,30,0.4) 0%, rgba(10,30,30,0) 50%, rgba(10,30,30,0.4) 100%);
+            pointer-events: none;
+        }
+        .cta-banner-inner {
+            position: relative;
+            z-index: 2;
+            max-width: 820px;
+            margin: 0 auto;
+        }
+        .cta-banner-eyebrow {
+            display: inline-block;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #22c55e;
+            margin-bottom: 1.25rem;
+        }
+        .cta-banner h2 {
+            font-size: 2.1rem;
+            line-height: 1.35;
+            margin-bottom: 1.25rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        .cta-banner h2 em {
+            font-style: normal;
+            color: #22c55e;
+            font-weight: 700;
+        }
+        .cta-banner p {
+            color: #d4e6d4;
+            font-size: 1.05rem;
+            line-height: 1.75;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        /* ===== WHAT WE NEVER DO ===== */
+        .never-section {
+            padding: 4rem 2rem;
+            background: #ffffff;
+        }
+        .never-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .never-title {
+            font-size: 1.55rem;
+            color: #143030;
+            margin-bottom: 2rem;
+            font-weight: 700;
+        }
+        .never-title span { color: #b91c1c; }
+        .never-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 0.9rem;
+            text-align: left;
+        }
+        .never-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.7rem;
+            padding: 0.9rem 1.1rem;
+            background: #fbfbfb;
+            border-left: 3px solid #b91c1c;
+            border-radius: 8px;
+            color: #2d3d3d;
+            font-size: 0.95rem;
+            line-height: 1.55;
+        }
+        .never-list li::before {
+            content: '\2715';
+            color: #b91c1c;
+            font-weight: 700;
+            font-size: 0.9rem;
+            flex: 0 0 auto;
+            line-height: 1.55;
+        }
+
+        /* Trust section */
+        .trust-section {
+            display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center;
+            background:linear-gradient(135deg,#f0faf4,#e3f5ea);
+            border-radius:24px; padding:3rem 2rem;
+            box-shadow:0 25px 45px rgba(0,50,20,0.06);
+            margin:4rem auto; max-width:1200px;
+        }
         .trust-image { border-radius:12px; overflow:hidden; }
         .trust-image img { width:100%; height:auto; display:block; transition:0.6s; }
         .trust-image:hover img { transform:scale(1.05); }
-        .trust-content h2 { font-size:2.2rem; color:#1a3a3a; margin-bottom:1.5rem; line-height:1.25; }
-        .trust-content p { color:#444; line-height:1.7; margin-bottom:1.5rem; }
+        .trust-content h2 { font-size:2.1rem; color:#143030; margin-bottom:1.2rem; line-height:1.25; }
+        .trust-content p { color:#2d3d3d; line-height:1.75; margin-bottom:1.5rem; }
+        .trust-content p strong { color: #143030; }
         .trust-list { list-style:none; padding:0; margin-bottom:2rem; }
-        .trust-list li { padding:0.8rem 0 0.8rem 2rem; position:relative; color:#333; }
-        .trust-list li::before { content:'\2713'; position:absolute; left:0; color:#22c55e; font-weight:bold; }
+        .trust-list li { padding:0.75rem 0 0.75rem 2rem; position:relative; color:#1f3030; line-height:1.55; }
+        .trust-list li::before { content:'\2713'; position:absolute; left:0; top:0.75rem; color:#15803d; font-weight:800; font-size:1.05rem; }
 
         .facts-block { max-width:1200px; margin:0 auto 4rem; }
-        .facts-heading { font-size:1.6rem; color:#1a3a3a; margin-bottom:1.5rem; text-align:center; }
+        .facts-heading { font-size:1.55rem; color:#143030; margin-bottom:1.5rem; text-align:center; }
         .fact-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:1rem; margin:0; }
-        .fact { background:#fff; border:1px solid rgba(34,197,94,0.18); border-radius:16px; padding:1.1rem 1.3rem; box-shadow:0 10px 22px rgba(34,197,94,0.06); }
-        .fact dt { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:#16a34a; font-weight:600; margin-bottom:0.35rem; }
-        .fact dd { font-size:0.98rem; color:#1a3a3a; font-weight:500; margin:0; line-height:1.5; word-break:break-word; }
+        .fact { background:#fff; border:1px solid rgba(34,197,94,0.2); border-radius:16px; padding:1.1rem 1.3rem; box-shadow:0 10px 22px rgba(34,197,94,0.07); }
+        .fact dt { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:#15803d; font-weight:700; margin-bottom:0.35rem; }
+        .fact dd { font-size:0.98rem; color:#143030; font-weight:500; margin:0; line-height:1.5; word-break:break-word; }
 
-        .faq-block { margin-top:3rem; max-width:820px; margin-left:auto; margin-right:auto; }
-        .faq-block h2 { font-size:2rem; color:#1a3a3a; margin-bottom:1.5rem; text-align:center; }
-        .faq-block dl { margin:0; }
-        .faq-block dt { font-size:1.08rem; color:#1a3a3a; margin-top:1.5rem; margin-bottom:0.5rem; }
-        .faq-block dd { color:#444; line-height:1.7; margin:0; padding-bottom:1.2rem; border-bottom:1px solid rgba(34,197,94,0.15); }
-        .faq-block dd a { color:#16a34a; font-weight:600; text-decoration:none; }
-        .faq-block dd a:hover { text-decoration:underline; }
+        /* FAQ */
+        .faq-block {
+            margin-top:3rem;
+            max-width: 820px;
+            margin-left:auto; margin-right:auto;
+            background: #ffffff;
+            border: 1px solid rgba(34,197,94,0.18);
+            border-radius: 20px;
+            padding: 2.5rem 2rem 1rem;
+            box-shadow: 0 14px 34px rgba(20,48,48,0.06);
+            color-scheme: light;
+        }
+        .faq-block h2 { font-size: 1.85rem; color: #0f2b2b; margin-bottom: 1.75rem; text-align: center; line-height: 1.25; }
+        .faq-block dl { margin: 0; }
+        .faq-block dt { font-size: 1.05rem; color: #0f2b2b; font-weight: 700; margin-top: 1.75rem; margin-bottom: 0.65rem; line-height: 1.45; }
+        .faq-block dd { color: #2d3d3d; font-size: 0.98rem; line-height: 1.75; margin: 0; padding-bottom: 1.4rem; border-bottom: 1px solid rgba(34,197,94,0.2); }
+        .faq-block dd a { color: #15803d; font-weight: 600; text-decoration: none; }
+        .faq-block dd a:hover { text-decoration: underline; }
 
+        .faq-more {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.6s ease;
+        }
+        .faq-more.open { max-height: 6000px; }
+        .faq-more dl > dt:first-of-type { margin-top: 1.75rem; }
+
+        .faq-toggle-wrap {
+            text-align: center;
+            padding: 1.75rem 0 1.25rem;
+            border-top: 1px solid rgba(34,197,94,0.2);
+            margin-top: 1rem;
+        }
+        .faq-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            background: transparent;
+            border: 1.5px solid #15803d;
+            color: #15803d;
+            padding: 0.75rem 1.85rem;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.25s, color 0.25s;
+        }
+        .faq-toggle:hover { background: #15803d; color: white; }
+        .faq-toggle svg { width: 13px; height: 13px; transition: transform 0.35s ease; }
+        .faq-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
+
+        /* Stats */
         .stats { padding:5rem 2rem; background:#f9f9f9; }
         .stats-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; max-width:1000px; margin:0 auto; text-align:center; }
         .stat-circle { position:relative; width:140px; height:140px; margin:0 auto 1rem; }
         .circular-chart { width:100%; height:100%; transform:rotate(-90deg); }
         .circle-bg { fill:none; stroke:#e0f2e0; stroke-width:3.8; }
         .circle-progress { fill:none; stroke:#22c55e; stroke-width:3.8; stroke-linecap:round; transition:stroke-dasharray 1.8s ease-out; }
-        /* Font size set in SVG user units so it scales with the circle */
-        .percentage-text { fill:#1a3a3a; font-weight:700; text-anchor:middle; transform:rotate(90deg); transform-origin:center; }
-        .stat-label { margin-top:0.5rem; font-weight:600; color:#333; line-height:1.4; }
+        .percentage-text { fill:#143030; font-weight:700; text-anchor:middle; transform:rotate(90deg); transform-origin:center; }
+        .stat-label { margin-top:0.5rem; font-weight:600; color:#1f3030; line-height:1.45; }
 
-        .cta { padding:5rem 2rem; text-align:center; background:linear-gradient(135deg,#1a3a3a,#2d5a5a); color:white; }
+        .cta { padding:5rem 2rem; text-align:center; background:linear-gradient(135deg,#143030,#1e4a4a); color:white; }
         .cta h2 { font-size:2.5rem; margin-bottom:1.5rem; line-height:1.2; }
-        .cta p { font-size:1.2rem; max-width:600px; margin:0 auto 2.5rem; opacity:0.95; }
-        .btn-magnetic { display:inline-block; padding:1rem 3rem; font-weight:700; border-radius:50px; background:linear-gradient(135deg,#22c55e,#16a34a); color:white; text-decoration:none; font-size:1.2rem; transition:transform 0.2s, box-shadow 0.2s; box-shadow:0 8px 20px rgba(34,197,94,0.3); }
-        .btn-magnetic:hover { transform:scale(1.05); box-shadow:0 15px 30px rgba(34,197,94,0.45); }
+        .cta p { font-size:1.15rem; max-width:620px; margin:0 auto 2.5rem; color:#d4e6d4; line-height:1.7; }
+        .btn-magnetic {
+            display:inline-block; padding:1rem 3rem; font-weight:700; border-radius:50px;
+            background:linear-gradient(135deg,#22c55e,#16a34a); color:#062112;
+            text-decoration:none; font-size:1.15rem;
+            transition:transform 0.2s, box-shadow 0.2s;
+            box-shadow:0 8px 20px rgba(34,197,94,0.35);
+        }
+        .btn-magnetic:hover { transform:scale(1.05); box-shadow:0 15px 30px rgba(34,197,94,0.5); }
 
-        .footer { background:#1a3a3a; color:white; padding:3rem 2rem 6rem; }
+        .footer { background:#143030; color:white; padding:3rem 2rem 6rem; }
         .footer-content { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:2rem; max-width:1200px; margin:0 auto; }
-        .footer-section h3 { margin-bottom:1rem; font-size:1.3rem; }
+        .footer-section h3 { margin-bottom:1rem; font-size:1.25rem; color:#ffffff; }
+        .footer-section p { color:#d6ded6; line-height:1.65; }
         .footer-links { list-style:none; padding:0; }
         .footer-links li { margin-bottom:0.5rem; }
-        .footer-links a { color:#ccc; text-decoration:none; transition:0.3s; }
+        .footer-links a { color:#d6ded6; text-decoration:none; transition:0.3s; }
         .footer-links a:hover { color:#22c55e; }
         .social-links-modern { display:flex; gap:1rem; margin-top:1rem; flex-wrap:wrap; }
-        .social-icon-rounded { width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,0.1); display:flex; align-items:center; justify-content:center; color:white; font-size:1.2rem; transition:0.3s; }
-        .social-icon-rounded:hover { background:#22c55e; transform:translateY(-3px); }
-        .footer-bottom { text-align:center; padding-top:2rem; border-top:1px solid rgba(255,255,255,0.1); margin-top:2rem; font-size:0.9rem; opacity:0.8; }
-        .floating-social-bar { position:fixed; bottom:20px; right:20px; z-index:1000; display:flex; gap:1.2rem; background:rgba(26,58,58,0.7); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px); border:1px solid rgba(255,255,255,0.25); border-radius:50px; padding:0.8rem 1.5rem; box-shadow:0 10px 30px rgba(0,0,0,0.15); }
-        .float-social-icon { font-size:1.8rem; color:white; transition:0.2s; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.2)); }
+        .social-icon-rounded { width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,0.12); display:flex; align-items:center; justify-content:center; color:white; font-size:1.2rem; transition:0.3s; }
+        .social-icon-rounded:hover { background:#22c55e; color:#062112; transform:translateY(-3px); }
+        .footer-bottom { text-align:center; padding-top:2rem; border-top:1px solid rgba(255,255,255,0.12); margin-top:2rem; font-size:0.9rem; color:#b8c8c8; }
+        .floating-social-bar { position:fixed; bottom:20px; right:20px; z-index:1000; display:flex; gap:1.2rem; background:rgba(20,48,48,0.85); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px); border:1px solid rgba(255,255,255,0.2); border-radius:50px; padding:0.8rem 1.5rem; box-shadow:0 10px 30px rgba(0,0,0,0.25); }
+        .float-social-icon { font-size:1.8rem; color:white; transition:0.2s; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.25)); }
         .float-social-icon:hover { transform:translateY(-5px) scale(1.15); filter:drop-shadow(0 8px 12px rgba(34,197,94,0.5)); }
         .float-wa:hover { color:#25D366; } .float-fb:hover { color:#1877F2; } .float-ig:hover { color:#E1306C; } .float-li:hover { color:#0077B5; }
-        .share-row { text-align:center; margin-top:1rem; }
-        .share-row a { color:white; margin:0 0.5rem; font-size:1.2rem; transition:0.3s; }
+        .share-row { text-align:center; margin-top:1rem; color:#d6ded6; }
+        .share-row a { color:#d6ded6; margin:0 0.5rem; font-size:1.15rem; transition:0.3s; }
         .share-row a:hover { color:#22c55e; }
         .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
 
-        /* ===== TABLET ===== */
         @media (max-width:1024px) {
             .hero-title { font-size:2.8rem; }
             .trust-section { padding:2.5rem 1.75rem; }
         }
 
-        /* ===== SMALL TABLET / LARGE PHONE ===== */
         @media (max-width:768px) {
             .navbar { padding: 0.85rem 1.25rem; }
             .hamburger { display:flex; }
-
             .nav-menu {
-                position: absolute;
-                left: -100%;
-                top: 100%;
-                width: 100%;
-                flex-direction: column;
-                background: #1a3a3a;
-                text-align: center;
+                position: absolute; left: -100%; top: 100%; width: 100%;
+                flex-direction: column; background: #143030; text-align: center;
                 transition: left 0.3s ease;
-                padding: 1.75rem 1rem 2rem;
-                gap: 1.25rem;
-                max-height: calc(100vh - 8rem);
-                max-height: calc(100svh - 8rem);
-                overflow-y: auto;
-                box-shadow: 0 18px 28px rgba(0,0,0,0.25);
+                padding: 1.75rem 1rem 2rem; gap: 1.25rem;
+                max-height: calc(100vh - 8rem); max-height: calc(100svh - 8rem);
+                overflow-y: auto; box-shadow: 0 18px 28px rgba(0,0,0,0.35);
             }
             .nav-menu.active { left: 0; }
             .hamburger.active .bar:nth-child(2) { opacity: 0; }
@@ -264,22 +528,40 @@
             .hero-buttons .btn { width: 100%; text-align: center; }
             .trust-badge { flex-direction: column; gap: 0.6rem; align-items: center; }
 
-            .section-title { font-size: 2rem; margin-bottom: 2rem; }
+            .section-title { font-size: 2rem; margin-bottom: 0.75rem; }
+            .section-subtitle { font-size: 0.98rem; margin-bottom: 2rem; }
             .features { padding: 3.5rem 1.25rem; }
             .feature-card { padding: 1.5rem 1.25rem; }
-            .feature-card h3 { font-size: 1.4rem; }
+            .feature-card h3 { font-size: 1.35rem; }
             .feature-icon { width: 52px; height: 52px; }
+
+            .story-section { padding: 3.5rem 1.25rem; }
+            .story-title { font-size: 1.85rem; margin-bottom: 2rem; }
+            .story-line { font-size: 1rem; line-height: 1.8; }
+            .story-quote { font-size: 1.15rem; margin-top: 2.5rem; padding-top: 1.5rem; }
+            .story-quote::before { margin-bottom: 1.5rem; }
+
+            .cta-banner { padding: 3.25rem 1.25rem; }
+            .cta-banner h2 { font-size: 1.6rem; }
+            .cta-banner p { font-size: 0.98rem; }
+
+            .never-section { padding: 3rem 1.25rem; }
+            .never-title { font-size: 1.35rem; margin-bottom: 1.5rem; }
+            .never-list { grid-template-columns: 1fr; }
+            .never-list li { font-size: 0.92rem; padding: 0.8rem 0.95rem; }
 
             .trust-section { grid-template-columns: 1fr; text-align: left; padding: 1.75rem 1.25rem; margin: 2.5rem auto; gap: 1.75rem; }
             .trust-content h2 { font-size: 1.7rem; }
-            .trust-list li { padding-left: 1.5rem; }
+            .trust-list li { padding-left: 1.6rem; font-size: 0.95rem; }
 
-            .facts-heading { font-size: 1.35rem; }
+            .facts-heading { font-size: 1.3rem; }
             .fact-list { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
-            .fact { padding: 0.85rem 1rem; }
+            .fact { padding: 0.9rem 1rem; }
 
-            .faq-block h2 { font-size: 1.6rem; }
+            .faq-block { padding: 1.75rem 1.4rem 0.5rem; border-radius: 16px; }
+            .faq-block h2 { font-size: 1.5rem; margin-bottom: 1.25rem; }
             .faq-block dt { font-size: 1rem; }
+            .faq-block dd { font-size: 0.94rem; line-height: 1.7; }
 
             .stats { padding: 3.5rem 1.25rem; }
             .stats-grid { grid-template-columns: 1fr; gap: 1.75rem; }
@@ -294,7 +576,6 @@
             .social-links-modern { justify-content: center; }
         }
 
-        /* ===== SMALL PHONE ===== */
         @media (max-width:480px) {
             .lang-switch { font-size: 0.78rem; padding: 0 0.9rem; }
             .navbar { padding: 0.7rem 0.9rem; }
@@ -306,6 +587,8 @@
             .hero-glass { padding: 1.5rem 1.1rem; margin: 0; border-radius: 20px; }
             .hero-title { font-size: 1.8rem; }
             .hero-subtitle { font-size: 0.95rem; }
+            .hero-summary { font-size: 0.9rem; }
+            .hero-tag { font-size: 0.8rem; padding: 0.4rem 1rem; }
             .btn { padding: 0.85rem 1.5rem; font-size: 0.95rem; }
 
             .section-title { font-size: 1.7rem; }
@@ -314,17 +597,29 @@
             .feature-card h3 { font-size: 1.25rem; }
             .feature-card p { font-size: 0.95rem; }
 
+            .story-title { font-size: 1.5rem; }
+            .story-line { font-size: 0.95rem; }
+            .story-quote { font-size: 1.05rem; }
+
+            .cta-banner h2 { font-size: 1.35rem; }
+            .cta-banner p { font-size: 0.92rem; }
+
+            .never-title { font-size: 1.15rem; }
+            .never-list li { font-size: 0.88rem; }
+
             .trust-section { padding: 1.5rem 1rem; }
             .trust-content h2 { font-size: 1.45rem; }
             .trust-content p { font-size: 0.95rem; }
-            .trust-list li { font-size: 0.92rem; padding: 0.6rem 0 0.6rem 1.4rem; }
+            .trust-list li { font-size: 0.92rem; padding: 0.55rem 0 0.55rem 1.5rem; }
 
             .fact-list { grid-template-columns: 1fr; }
             .fact dd { font-size: 0.93rem; }
 
-            .faq-block h2 { font-size: 1.4rem; }
-            .faq-block dt { font-size: 0.97rem; }
-            .faq-block dd { font-size: 0.92rem; }
+            .faq-block { padding: 1.5rem 1.1rem 0.5rem; }
+            .faq-block h2 { font-size: 1.35rem; }
+            .faq-block dt { font-size: 0.95rem; }
+            .faq-block dd { font-size: 0.9rem; line-height: 1.7; }
+            .faq-toggle { padding: 0.65rem 1.4rem; font-size: 0.88rem; }
 
             .stat-circle { width: 110px; height: 110px; }
             .stat-label { font-size: 0.88rem; }
@@ -341,7 +636,6 @@
             .float-social-icon { font-size: 1.25rem; }
         }
 
-        /* ===== VERY SMALL (older phones) ===== */
         @media (max-width:360px) {
             .logo-text { font-size: 1rem; }
             .hero-title { font-size: 1.6rem; }
@@ -350,7 +644,6 @@
             .float-social-icon { font-size: 1.1rem; }
         }
 
-        /* Respect motion preferences */
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
                 animation-duration: 0.01ms !important;
@@ -359,6 +652,8 @@
             }
             .hero::before { animation: none; }
             .floating-elements .float-leaf { animation: none; }
+            .story-line, .story-quote { opacity: 1; transform: none; transition: none; }
+            .faq-more { transition: none; }
         }
     </style>
 
@@ -373,7 +668,6 @@
     <script type="text/javascript"> (function(c,l,a,r,i,t,y){ c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i; y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y); })(window, document, "clarity", "script", "wnrf7slh1t"); </script>
 </head>
 <body>
-    <!-- Language Switcher -->
     <div class="lang-switch">
         <a href="https://vaagai-green-farm.vercel.app/" class="active-lang" hreflang="en">English</a>
         <span aria-hidden="true">|</span>
@@ -383,7 +677,7 @@
     <div class="cursor" id="cursor" aria-hidden="true"></div>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5886MVJL" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 
-    <!-- ===== CONSOLIDATED STRUCTURED DATA (SEO + AEO + GEO) ===== -->
+    <!-- ===== STRUCTURED DATA (SEO + AEO + GEO) ===== -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -394,14 +688,14 @@
           "name": "Vaagai Green Farm",
           "alternateName": "Vaagai Green Farm Arakkonam",
           "url": "https://vaagai-green-farm.vercel.app/",
-          "description": "Vaagai Green Farm is a small natural farm in Arakkonam, Tamil Nadu. It grows vegetables without synthetic pesticides and runs workshops on hydroponics, aquaponics and beekeeping.",
+          "description": "Vaagai Green Farm is a third-generation family farm in Arakkonam, Tamil Nadu. The current farmer left a mechanical engineering career to work the family land full-time, growing vegetables without synthetic pesticides and delivering fresh produce to homes nearby.",
           "foundingDate": "2020",
+          "founder": { "@id": "https://vaagai-green-farm.vercel.app/#founder" },
           "logo": {
             "@type": "ImageObject",
             "@id": "https://vaagai-green-farm.vercel.app/#logo",
             "url": "https://vaagai-green-farm.vercel.app/images/logo.png",
-            "width": 512,
-            "height": 512,
+            "width": 512, "height": 512,
             "caption": "Vaagai Green Farm logo"
           },
           "image": { "@id": "https://vaagai-green-farm.vercel.app/#logo" },
@@ -417,15 +711,7 @@
               "availableLanguage": ["en", "ta"]
             }
           ],
-          "knowsAbout": [
-            "Natural farming",
-            "Chemical-free vegetable growing",
-            "Hydroponics",
-            "Aquaponics",
-            "Beekeeping",
-            "Composting",
-            "Urban agriculture"
-          ],
+          "knowsAbout": ["Natural farming","Chemical-free vegetable growing","Hydroponics","Aquaponics","Beekeeping","Composting"],
           "sameAs": [
             "https://www.facebook.com/vaagaigreenfarm",
             "https://www.instagram.com/vaagaigreenfarm",
@@ -434,12 +720,23 @@
           ]
         },
         {
+          "@type": "Person",
+          "@id": "https://vaagai-green-farm.vercel.app/#founder",
+          "name": "Farmer, Vaagai Green Farm",
+          "jobTitle": "Farmer",
+          "description": "Third-generation farmer and founder of Vaagai Green Farm. Trained in mechanical engineering (B.E. Mechanical) before returning to full-time farming on the family's own land in Arakkonam.",
+          "worksFor": { "@id": "https://vaagai-green-farm.vercel.app/#organization" },
+          "knowsAbout": ["Natural farming","Hydroponics","Aquaponics","Beekeeping"],
+          "address": { "@id": "https://vaagai-green-farm.vercel.app/#address" }
+        },
+        {
           "@type": ["LocalBusiness", "Farm"],
           "@id": "https://vaagai-green-farm.vercel.app/#farm",
           "name": "Vaagai Green Farm",
-          "description": "A working natural farm in Arakkonam, Tamil Nadu, supplying chemical-free vegetables and running hands-on workshops on hydroponics, aquaponics and beekeeping.",
+          "description": "A third-generation family farm on its own land in Arakkonam, Tamil Nadu, growing vegetables without synthetic pesticides and delivering fresh produce to homes nearby.",
           "url": "https://vaagai-green-farm.vercel.app/",
           "parentOrganization": { "@id": "https://vaagai-green-farm.vercel.app/#organization" },
+          "founder": { "@id": "https://vaagai-green-farm.vercel.app/#founder" },
           "image": "https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg",
           "logo": { "@id": "https://vaagai-green-farm.vercel.app/#logo" },
           "telephone": "+919655118268",
@@ -456,82 +753,51 @@
             "postalCode": "631003",
             "addressCountry": "IN"
           },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "@id": "https://vaagai-green-farm.vercel.app/#geo",
-            "latitude": 13.0843,
-            "longitude": 79.6705
-          },
+          "geo": { "@type": "GeoCoordinates", "@id": "https://vaagai-green-farm.vercel.app/#geo", "latitude": 13.0843, "longitude": 79.6705 },
           "hasMap": "https://www.google.com/maps/search/?api=1&query=13.0843,79.6705",
           "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-              "opens": "09:00",
-              "closes": "18:00"
-            }
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "18:00" }
           ],
           "areaServed": [
             { "@type": "City", "name": "Arakkonam" },
             { "@type": "City", "name": "Ranipet" },
             { "@type": "City", "name": "Kanchipuram" },
-            { "@type": "City", "name": "Vellore" },
-            { "@type": "City", "name": "Chennai" }
+            { "@type": "City", "name": "Vellore" }
           ],
           "serviceArea": {
             "@type": "GeoCircle",
             "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 13.0843, "longitude": 79.6705 },
-            "geoRadius": "40000"
+            "geoRadius": "35000"
           },
-          "knowsAbout": [
-            "Natural farming", "Hydroponics", "Aquaponics",
-            "Beekeeping", "Seasonal vegetable growing"
-          ],
+          "slogan": "Grown on our own land. Picked the morning it reaches you.",
+          "knowsAbout": ["Natural farming","Chemical-free vegetables","Hydroponics","Aquaponics","Beekeeping"],
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "@id": "https://vaagai-green-farm.vercel.app/#catalog",
-            "name": "Farm produce and farming workshops",
+            "name": "Farm produce",
             "itemListElement": [
               {
                 "@type": "Offer",
                 "itemOffered": {
-                  "@type": "Service",
-                  "@id": "https://vaagai-green-farm.vercel.app/#service-vegetables",
+                  "@type": "Product",
+                  "@id": "https://vaagai-green-farm.vercel.app/#product-vegetables",
                   "name": "Farm-fresh vegetables",
-                  "description": "Leafy greens, tomatoes, brinjal and seasonal vegetables grown without synthetic pesticides, harvested each morning and delivered within 24 hours.",
-                  "provider": { "@id": "https://vaagai-green-farm.vercel.app/#farm" },
-                  "areaServed": { "@type": "City", "name": "Arakkonam" }
-                }
+                  "description": "Leafy greens, tomatoes, brinjal and seasonal vegetables grown on our own farm without synthetic pesticides, picked each morning and delivered within 24 hours.",
+                  "category": "Fresh vegetables"
+                },
+                "seller": { "@id": "https://vaagai-green-farm.vercel.app/#farm" },
+                "areaServed": { "@type": "City", "name": "Arakkonam" }
               },
               {
                 "@type": "Offer",
                 "itemOffered": {
-                  "@type": "Service",
-                  "@id": "https://vaagai-green-farm.vercel.app/#service-hydroponics",
-                  "name": "Hydroponics setup and training",
-                  "description": "Guidance and hands-on training for setting up a small hydroponic system at home or on a terrace, including nutrient mixes, water use and running costs.",
-                  "provider": { "@id": "https://vaagai-green-farm.vercel.app/#farm" }
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "@id": "https://vaagai-green-farm.vercel.app/#service-aquaponics",
-                  "name": "Aquaponics systems",
-                  "description": "Design and installation of aquaponics systems where fish and plants share one closed water loop, producing food with no chemical fertiliser.",
-                  "provider": { "@id": "https://vaagai-green-farm.vercel.app/#farm" }
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "@id": "https://vaagai-green-farm.vercel.app/#service-beekeeping",
-                  "name": "Beekeeping and raw honey",
-                  "description": "Native bee colonies kept on the farm, raw unheated honey sold directly, and beginner beekeeping training for home and farm setups.",
-                  "provider": { "@id": "https://vaagai-green-farm.vercel.app/#farm" }
-                }
+                  "@type": "Product",
+                  "@id": "https://vaagai-green-farm.vercel.app/#product-honey",
+                  "name": "Raw honey",
+                  "description": "Honey from native bee colonies kept on the farm. Bottled raw and never heated or blended.",
+                  "category": "Raw honey"
+                },
+                "seller": { "@id": "https://vaagai-green-farm.vercel.app/#farm" }
               }
             ]
           },
@@ -547,7 +813,7 @@
           "@id": "https://vaagai-green-farm.vercel.app/#website",
           "url": "https://vaagai-green-farm.vercel.app/",
           "name": "Vaagai Green Farm",
-          "description": "Natural farm in Arakkonam, Tamil Nadu, growing chemical-free vegetables and teaching hydroponics, aquaponics and beekeeping.",
+          "description": "Third-generation family farm in Arakkonam, Tamil Nadu, growing chemical-free vegetables on its own land and delivering them fresh to nearby homes.",
           "publisher": { "@id": "https://vaagai-green-farm.vercel.app/#organization" },
           "inLanguage": "en-IN"
         },
@@ -556,7 +822,7 @@
           "@id": "https://vaagai-green-farm.vercel.app/#webpage",
           "url": "https://vaagai-green-farm.vercel.app/",
           "name": "Vaagai Green Farm | Chemical-Free Vegetables in Arakkonam, Tamil Nadu",
-          "description": "Vaagai Green Farm grows vegetables without chemical sprays in Arakkonam, Tamil Nadu. Same-day delivery, plus workshops on hydroponics, aquaponics and beekeeping.",
+          "description": "Third-generation family farm in Arakkonam. The farmer left mechanical engineering to work the land. Chemical-free vegetables picked fresh and delivered the same day.",
           "isPartOf": { "@id": "https://vaagai-green-farm.vercel.app/#website" },
           "about": { "@id": "https://vaagai-green-farm.vercel.app/#farm" },
           "primaryImageOfPage": { "@id": "https://vaagai-green-farm.vercel.app/#heroimage" },
@@ -566,19 +832,14 @@
           "inLanguage": "en-IN",
           "speakable": {
             "@type": "SpeakableSpecification",
-            "cssSelector": [".hero-title", ".hero-subtitle", ".fact-list", ".faq-block dd"]
+            "cssSelector": [".hero-title", ".hero-subtitle", ".story-line", ".story-quote", ".fact-list", ".faq-block dd"]
           }
         },
         {
           "@type": "BreadcrumbList",
           "@id": "https://vaagai-green-farm.vercel.app/#breadcrumb",
           "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://vaagai-green-farm.vercel.app/"
-            }
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://vaagai-green-farm.vercel.app/" }
           ]
         },
         {
@@ -588,7 +849,7 @@
           "itemListElement": [
             { "@type": "SiteNavigationElement", "position": 1, "name": "Home", "url": "https://vaagai-green-farm.vercel.app/" },
             { "@type": "SiteNavigationElement", "position": 2, "name": "About Our Farm", "url": "https://vaagai-green-farm.vercel.app/about.html" },
-            { "@type": "SiteNavigationElement", "position": 3, "name": "Our Services", "url": "https://vaagai-green-farm.vercel.app/products.html" },
+            { "@type": "SiteNavigationElement", "position": 3, "name": "Our Produce", "url": "https://vaagai-green-farm.vercel.app/products.html" },
             { "@type": "SiteNavigationElement", "position": 4, "name": "Contact / Farm Visit", "url": "https://vaagai-green-farm.vercel.app/contact.html" }
           ]
         },
@@ -596,26 +857,10 @@
           "@type": "ImageObject",
           "@id": "https://vaagai-green-farm.vercel.app/#heroimage",
           "contentUrl": "https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg",
-          "description": "Vegetable harvest and hydroponic greenhouse at Vaagai Green Farm in Arakkonam",
+          "description": "Vegetable harvest and greenhouse at Vaagai Green Farm, Arakkonam",
           "creditText": "Vaagai Green Farm",
           "creator": { "@id": "https://vaagai-green-farm.vercel.app/#organization" },
           "copyrightNotice": "Vaagai Green Farm"
-        },
-        {
-          "@type": "Course",
-          "@id": "https://vaagai-green-farm.vercel.app/#workshop-hydroponics",
-          "name": "Hydroponics Workshop at Vaagai Green Farm",
-          "description": "A two to four hour hands-on session on setting up a small hydroponic system at home, covering nutrients, water use, running costs and the mistakes to avoid.",
-          "provider": { "@id": "https://vaagai-green-farm.vercel.app/#organization" },
-          "inLanguage": "en-IN",
-          "availableLanguage": ["en", "ta"],
-          "isAccessibleForFree": false,
-          "hasCourseInstance": {
-            "@type": "CourseInstance",
-            "courseMode": "Onsite",
-            "location": { "@id": "https://vaagai-green-farm.vercel.app/#farm" },
-            "courseWorkload": "PT4H"
-          }
         },
         {
           "@type": "FAQPage",
@@ -624,50 +869,77 @@
             {
               "@type": "Question",
               "name": "Is Vaagai Green Farm completely natural?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We have used no synthetic pesticides or chemical fertilisers since we started in 2020. We are not certified organic because the certification cost is hard to justify for a farm our size, but the growing methods we follow are just as strict."
-              }
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. We have used no synthetic pesticides or chemical fertilisers since we started in 2020. We are not certified organic, because the certification cost is hard to justify for a farm our size, but the growing methods we follow are just as strict." }
             },
             {
               "@type": "Question",
-              "name": "Where does Vaagai Green Farm deliver?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We deliver across Arakkonam and nearby towns in Ranipet and Kanchipuram districts. Orders placed before 6 pm are usually delivered the next morning."
-              }
+              "name": "Who runs Vaagai Green Farm?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Vaagai Green Farm is run by a third-generation farmer from Arakkonam. He trained in mechanical engineering (B.E. Mechanical) and left that career to work his family's land full-time. His grandfather farmed, his father farmed, and he is the third in line." }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you farm on your own land?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vaagai Green Farm operates on its own family farm land in Arakkonam. We are not a collective or a rented plot, which lets us control every step from sowing to harvest." }
+            },
+            {
+              "@type": "Question",
+              "name": "Where do you deliver?",
+              "acceptedAnswer": { "@type": "Answer", "text": "We deliver across Arakkonam and nearby towns in Ranipet and Kanchipuram districts. Orders placed before 6 pm are usually delivered the next morning." }
             },
             {
               "@type": "Question",
               "name": "How much do the vegetables cost?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Prices move with the season and the crop. A weekly basket starts at around ₹400. Message us on WhatsApp at +91 96551 18268 for the current list and rates."
-              }
+              "acceptedAnswer": { "@type": "Answer", "text": "Prices move with the season and the crop. A weekly basket starts at around ₹400. Message us on WhatsApp at +91 96551 18268 for the current list and rates." }
             },
             {
               "@type": "Question",
               "name": "Can I visit the farm?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We take visitors on Saturdays and Sundays between 9 am and 5 pm. Call ahead on +91 96551 18268 so someone is free to walk you around."
-              }
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes, by appointment. Call ahead on +91 96551 18268 and we will set a time, usually on a weekend." }
             },
             {
               "@type": "Question",
-              "name": "Do you teach hydroponics and beekeeping?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We run short workshops through the year. Sessions last two to four hours and cover setup, cost, and the mistakes beginners usually make."
-              }
+              "name": "Do you run farming workshops?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Not yet. We plan to run short sessions on hydroponics, aquaponics and beekeeping in the future. When that starts, we will announce it on our social pages first." }
+            },
+            {
+              "@type": "Question",
+              "name": "What crops do you grow through the year?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Our year splits into three seasons. Summer gives us greens, brinjal, okra and tomatoes. The monsoon brings beans, gourds and leafy vegetables. Winter is for cabbage, cauliflower, carrot and beetroot. We plant what suits the season, not what sells fastest." }
+            },
+            {
+              "@type": "Question",
+              "name": "How do you handle pests without chemicals?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Neem oil, garlic and chilli sprays, and physical traps. We also plant marigolds and other border crops to draw pests away from the main beds and to bring in bees and ladybirds that feed on them. Healthy soil means stronger plants that fight off most damage on their own." }
+            },
+            {
+              "@type": "Question",
+              "name": "Is your produce certified organic?",
+              "acceptedAnswer": { "@type": "Answer", "text": "No. We follow organic methods but do not carry a certification label. Certification costs more than a small farm can justify, and we would rather put that money into the soil and the seed. You are welcome to visit the farm and see how we grow before you buy." }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the smallest order you deliver?",
+              "acceptedAnswer": { "@type": "Answer", "text": "There is no strict minimum. Most households start with a weekly basket around ₹400 to ₹600. If you are close to Arakkonam, we can also do smaller orders on request." }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer a weekly subscription basket?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Many families take a weekly basket of seasonal vegetables, either fixed or let us choose what is freshest that week. Message us on WhatsApp and we will set up a standing order." }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I buy directly at the farm?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes, by appointment. Call ahead so we are free when you arrive, and you can pick up what is in season that day directly from the field." }
+            },
+            {
+              "@type": "Question",
+              "name": "What kind of honey do you sell?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Raw, unheated honey from native bee colonies kept on the farm. It is not blended, flavoured or pasteurised. What the bees made is what goes in the bottle." }
             },
             {
               "@type": "Question",
               "name": "Do you supply hotels and restaurants?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. We supply a small number of kitchens in Arakkonam and Ranipet on weekly contracts. Get in touch with your weekly requirement and we will tell you what we can commit to."
-              }
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. We supply a small number of kitchens in Arakkonam and Ranipet on weekly contracts. Send us your weekly requirement and we will tell you what we can commit to." }
             }
           ]
         }
@@ -692,7 +964,7 @@
             <ul class="nav-menu" id="primary-menu">
                 <li><a href="/" class="nav-link active" aria-current="page">Home</a></li>
                 <li><a href="about.html" class="nav-link">About Our Farm</a></li>
-                <li><a href="products.html" class="nav-link">Our Services</a></li>
+                <li><a href="products.html" class="nav-link">Our Produce</a></li>
                 <li><a href="contact.html" class="nav-link">Contact / Farm Visit</a></li>
             </ul>
             <button class="hamburger" type="button" aria-label="Open menu" aria-controls="primary-menu" aria-expanded="false">
@@ -703,28 +975,28 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main role="main">
+        <!-- Hero -->
         <section class="hero" aria-label="Introduction to Vaagai Green Farm">
             <div class="hero-content hero-glass">
-                <p style="font-size:1rem; opacity:0.85; margin-bottom:1rem;" aria-label="Page summary">
-                    <strong>Vaagai Green Farm</strong> grows vegetables without chemical sprays in Arakkonam, Tamil Nadu, and runs hands-on workshops on hydroponics, aquaponics and beekeeping.
+                <p class="hero-summary" aria-label="Page summary">
+                    <strong>Vaagai Green Farm</strong> grows vegetables on its own family land in Arakkonam, Tamil Nadu, without chemical sprays, and delivers them fresh to nearby homes.
                 </p>
-                <span class="testimonial-tag" style="background:rgba(255,255,255,0.1); padding:0.5rem 1.5rem; border-radius:50px; display:inline-block; margin-bottom:1.5rem; font-size:0.9rem;">No chemical sprays. Picked the morning it reaches you.</span>
+                <span class="hero-tag">No chemical sprays. Picked the morning it reaches you.</span>
                 <h1 class="hero-title animate__animated animate__fadeInDown">
                     Real Food, Grown<br><span class="gradient-text">Without Chemicals</span>
                 </h1>
-                <p class="hero-subtitle animate__animated animate__fadeInUp" style="margin:1.5rem 0;">
-                    We farm a small plot in Arakkonam and send what we grow to nearby homes the same day. No sprays, no cold storage, no middlemen.
+                <p class="hero-subtitle animate__animated animate__fadeInUp">
+                    Everything comes from our own farm in Arakkonam and goes out the same day it is picked. No sprays, no cold storage, no middlemen.
                 </p>
-                <div class="hero-buttons animate__animated animate__zoomIn" style="margin:2rem 0;">
+                <div class="hero-buttons animate__animated animate__zoomIn" style="margin:2rem 0 1rem;">
                     <a href="contact.html" class="btn btn-primary">Order Fresh Produce</a>
                     <a href="about.html" class="btn btn-secondary">See How We Farm</a>
                 </div>
                 <div class="trust-badge">
-                    <span><i class="fas fa-leaf"></i> 500+ families served</span>
+                    <span><i class="fas fa-leaf"></i> 100+ families served</span>
                     <span><i class="fas fa-droplet"></i> 80% less water used</span>
-                    <span><i class="fas fa-seedling"></i> 12+ workshops run</span>
+                    <span><i class="fas fa-truck"></i> Same-day harvest and delivery</span>
                 </div>
             </div>
             <div class="floating-elements" aria-hidden="true">
@@ -740,8 +1012,10 @@
             </div>
         </section>
 
+        <!-- Features -->
         <section class="features" id="solutions" aria-labelledby="solutions-title">
-            <h2 class="section-title" id="solutions-title">What We Grow and <span class="gradient-text">Teach</span></h2>
+            <h2 class="section-title" id="solutions-title">What Comes Off <span class="gradient-text">Our Farm</span></h2>
+            <p class="section-subtitle">Four things we do on our own land in Arakkonam. Everything we sell, we grow ourselves.</p>
             <div class="features-grid">
                 <div class="feature-card tilt-card fade-in-on-scroll">
                     <div class="feature-icon">
@@ -752,7 +1026,7 @@
                         </svg>
                     </div>
                     <h3>Farm-Fresh Vegetables</h3>
-                    <p>We pick in the morning and deliver the same day. Nothing sits in a warehouse for a week.</p>
+                    <p>Leafy greens, tomatoes, brinjal and seasonal vegetables. Picked in the morning, on your table the same day.</p>
                 </div>
                 <div class="feature-card tilt-card fade-in-on-scroll">
                     <div class="feature-icon">
@@ -764,7 +1038,7 @@
                         </svg>
                     </div>
                     <h3>Beekeeping</h3>
-                    <p>We keep native bee colonies on the farm. The honey is bottled raw, never heated or blended.</p>
+                    <p>Native bee colonies live on the farm. They pollinate the crops and give us raw honey we bottle ourselves.</p>
                 </div>
                 <div class="feature-card tilt-card fade-in-on-scroll">
                     <div class="feature-icon">
@@ -774,7 +1048,7 @@
                         </svg>
                     </div>
                     <h3>Hydroponics</h3>
-                    <p>Greens grown in water instead of soil. It uses a fraction of the water and works through the year.</p>
+                    <p>Some of our greens grow in water, not soil. It cuts water use by a wide margin and works through the year.</p>
                 </div>
                 <div class="feature-card tilt-card fade-in-on-scroll">
                     <div class="feature-icon">
@@ -785,27 +1059,77 @@
                         </svg>
                     </div>
                     <h3>Aquaponics</h3>
-                    <p>Fish and plants share one system. The fish feed the plants, the plants clean the water.</p>
+                    <p>Fish and plants share one system. The fish feed the plants, the plants clean the water, nothing goes to waste.</p>
                 </div>
             </div>
         </section>
 
+        <!-- ===== STORY SECTION (animated reveal) ===== -->
+        <section class="story-section" aria-labelledby="story-title">
+            <div class="story-container">
+                <span class="story-eyebrow">The story behind the farm</span>
+                <h2 class="story-title" id="story-title">He could have stayed in the office.<br><em>He came back to the land.</em></h2>
+
+                <p class="story-line">
+                    Three generations of this family have worked the same ground in Arakkonam. His grandfather did it with bullock carts. His father did it with a tractor. He did it with a <strong>B.E. Mechanical degree</strong> in his hand and an engineering job waiting for him.
+                </p>
+                <p class="story-line">
+                    He chose the farm. The office could wait. The soil could not.
+                </p>
+                <p class="story-line">
+                    Vaagai Green Farm started in 2020 with one rule: grow food we would feed our own family. No sprays, no shortcuts, no plans to turn it into something it was never meant to be.
+                </p>
+
+                <p class="story-quote">
+                    &ldquo;I did not leave engineering to become a farmer. I came back to being one.&rdquo;
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== CTA BANNER (farmer story) ===== -->
+        <section class="cta-banner" aria-label="About the farmer behind Vaagai Green Farm">
+            <div class="cta-banner-inner">
+                <span class="cta-banner-eyebrow">Three generations. One engineer. One farm.</span>
+                <h2>A B.E. Mechanical degree sits framed on the wall. <em>This farm is what he wakes up for.</em></h2>
+                <p>
+                    Vaagai Green Farm started when a third-generation farmer traded an engineering career for his family's soil. Every vegetable we sell, he grew himself. Every basket, he packed with his own hands.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== WHAT WE NEVER DO ===== -->
+        <section class="never-section" aria-labelledby="never-title">
+            <div class="never-inner">
+                <h2 class="never-title" id="never-title">What We <span>Never</span> Do</h2>
+                <ul class="never-list">
+                    <li>No synthetic pesticides. Not even once.</li>
+                    <li>No chemical fertilisers on any bed.</li>
+                    <li>No ripening chemicals or carbide.</li>
+                    <li>No cold storage to stretch shelf life.</li>
+                    <li>No middlemen or wholesale resale.</li>
+                    <li>No waxing, no artificial shine on the vegetables.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Trust section + Facts + FAQ -->
         <section class="container" id="why-us" style="max-width:1200px; margin:0 auto; padding:0 1.25rem;">
             <div class="trust-section">
                 <div class="trust-image">
                     <img src="images/trust-farmer-harvest.jpg"
-                         alt="Farmer harvesting chemical-free vegetables at Vaagai Green Farm in Arakkonam"
+                         alt="Third-generation farmer harvesting chemical-free vegetables at Vaagai Green Farm in Arakkonam"
                          width="600" height="400" loading="lazy" fetchpriority="high">
                 </div>
                 <div class="trust-content">
                     <h2>Why Families Around Arakkonam Buy From Us</h2>
-                    <p>We started in 2020 with one rule: grow food we would feed our own family. That has not changed. Every bed is checked by hand, and nothing leaves the farm unless we would eat it ourselves.</p>
+                    <p><strong>The land has been in the family for three generations.</strong> The current farmer trained as a mechanical engineer, then walked away from that career to work this ground full-time. He started Vaagai Green Farm in 2020 with one rule: grow food we would feed our own family. Every bed is checked by hand, and nothing leaves the farm unless we would eat it ourselves.</p>
                     <ul class="trust-list">
+                        <li>Third-generation farming family, working our own land</li>
+                        <li>B.E. Mechanical graduate turned full-time farmer</li>
                         <li>No synthetic pesticides or chemical fertilisers since 2020</li>
                         <li>Harvested each morning and delivered within 24 hours</li>
                         <li>Soil and water tested every season</li>
-                        <li>More than 500 households buy from us regularly</li>
-                        <li>Workshops for school groups, home gardeners and new farmers</li>
+                        <li>More than 100 households buy from us regularly</li>
                         <li>Native trees and bee colonies kept on the property</li>
                     </ul>
                     <a href="about.html" class="btn btn-primary">Read Our Story</a>
@@ -815,20 +1139,27 @@
             <div class="facts-block">
                 <h2 class="facts-heading">Farm Facts at a Glance</h2>
                 <dl class="fact-list">
-                    <div class="fact"><dt>Farming since</dt><dd>2020</dd></div>
+                    <div class="fact"><dt>Farming since</dt><dd>2020 (family has farmed for 3 generations)</dd></div>
+                    <div class="fact"><dt>Farmer</dt><dd>B.E. Mechanical, third-generation farmer</dd></div>
+                    <div class="fact"><dt>Land</dt><dd>Our own family land in Arakkonam</dd></div>
                     <div class="fact"><dt>Method</dt><dd>Natural growing, no synthetic pesticides</dd></div>
                     <div class="fact"><dt>Delivery</dt><dd>Same day in Arakkonam, next day nearby</dd></div>
-                    <div class="fact"><dt>Workshops</dt><dd>Hydroponics, aquaponics, beekeeping</dd></div>
-                    <div class="fact"><dt>Farm visits</dt><dd>Saturday and Sunday, 9 am to 5 pm</dd></div>
                     <div class="fact"><dt>Phone</dt><dd>+91 96551 18268</dd></div>
                 </dl>
             </div>
 
+            <!-- FAQ -->
             <div class="faq-block" id="faq">
                 <h2>Questions We Get Asked</h2>
                 <dl>
                     <dt><strong>Is Vaagai Green Farm completely natural?</strong></dt>
                     <dd>Yes. We have used no synthetic pesticides or chemical fertilisers since we started in 2020. We are not certified organic, because the certification cost is hard to justify for a farm our size, but the growing methods we follow are just as strict.</dd>
+
+                    <dt><strong>Who runs Vaagai Green Farm?</strong></dt>
+                    <dd>A third-generation farmer from Arakkonam. He trained in mechanical engineering (B.E. Mechanical) and left that career to work his family's land full-time. His grandfather farmed, his father farmed, and he is the third in line.</dd>
+
+                    <dt><strong>Do you farm on your own land?</strong></dt>
+                    <dd>Yes. Vaagai Green Farm operates on its own family farm land in Arakkonam. We are not a collective or a rented plot, which lets us control every step from sowing to harvest.</dd>
 
                     <dt><strong>Where do you deliver?</strong></dt>
                     <dd>We deliver across Arakkonam and nearby towns in Ranipet and Kanchipuram districts. Orders placed before 6 pm are usually delivered the next morning.</dd>
@@ -837,17 +1168,53 @@
                     <dd>Prices move with the season and the crop. A weekly basket starts at around ₹400. Message us on WhatsApp at +91 96551 18268 for the current list and rates.</dd>
 
                     <dt><strong>Can I visit the farm?</strong></dt>
-                    <dd>Yes. We take visitors on Saturdays and Sundays between 9 am and 5 pm. Call ahead so someone is free to walk you around. <a href="contact.html">Book a farm visit</a>.</dd>
-
-                    <dt><strong>Do you teach hydroponics and beekeeping?</strong></dt>
-                    <dd>We run short workshops through the year. Sessions last two to four hours and cover setup, cost, and the mistakes beginners usually make.</dd>
-
-                    <dt><strong>Do you supply hotels and restaurants?</strong></dt>
-                    <dd>Yes. We supply a small number of kitchens in Arakkonam and Ranipet on weekly contracts. Send us your weekly requirement and we will tell you what we can commit to.</dd>
+                    <dd>Yes, by appointment. Call ahead so someone is free to walk you around. <a href="contact.html">Book a farm visit</a>.</dd>
                 </dl>
+
+                <!-- Hidden FAQs, revealed by the toggle below -->
+                <div class="faq-more" id="faqMore">
+                    <dl>
+                        <dt><strong>Do you run farming workshops?</strong></dt>
+                        <dd>Not yet. We plan to run short sessions on hydroponics, aquaponics and beekeeping in the future. When that starts, we will announce it on our social pages first.</dd>
+
+                        <dt><strong>What crops do you grow through the year?</strong></dt>
+                        <dd>Our year splits into three seasons. Summer gives us greens, brinjal, okra and tomatoes. The monsoon brings beans, gourds and leafy vegetables. Winter is for cabbage, cauliflower, carrot and beetroot. We plant what suits the season, not what sells fastest.</dd>
+
+                        <dt><strong>How do you handle pests without chemicals?</strong></dt>
+                        <dd>Neem oil, garlic and chilli sprays, and physical traps. We also plant marigolds and other border crops to draw pests away from the main beds and to bring in bees and ladybirds that feed on them. Healthy soil means stronger plants that fight off most damage on their own.</dd>
+
+                        <dt><strong>Is your produce certified organic?</strong></dt>
+                        <dd>No. We follow organic methods but do not carry a certification label. Certification costs more than a small farm can justify, and we would rather put that money into the soil and the seed. You are welcome to visit the farm and see how we grow before you buy.</dd>
+
+                        <dt><strong>What is the smallest order you deliver?</strong></dt>
+                        <dd>There is no strict minimum. Most households start with a weekly basket around ₹400 to ₹600. If you are close to Arakkonam, we can also do smaller orders on request.</dd>
+
+                        <dt><strong>Do you offer a weekly subscription basket?</strong></dt>
+                        <dd>Yes. Many families take a weekly basket of seasonal vegetables, either fixed or let us choose what is freshest that week. Message us on WhatsApp and we will set up a standing order.</dd>
+
+                        <dt><strong>Can I buy directly at the farm?</strong></dt>
+                        <dd>Yes, by appointment. Call ahead so we are free when you arrive, and you can pick up what is in season that day directly from the field.</dd>
+
+                        <dt><strong>What kind of honey do you sell?</strong></dt>
+                        <dd>Raw, unheated honey from native bee colonies kept on the farm. It is not blended, flavoured or pasteurised. What the bees made is what goes in the bottle.</dd>
+
+                        <dt><strong>Do you supply hotels and restaurants?</strong></dt>
+                        <dd>Yes. We supply a small number of kitchens in Arakkonam and Ranipet on weekly contracts. Send us your weekly requirement and we will tell you what we can commit to.</dd>
+                    </dl>
+                </div>
+
+                <div class="faq-toggle-wrap">
+                    <button class="faq-toggle" id="faqToggle" type="button" aria-expanded="false" aria-controls="faqMore">
+                        <span class="faq-toggle-label">Read More Questions</span>
+                        <svg viewBox="0 0 12 8" fill="none" aria-hidden="true" focusable="false">
+                            <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </section>
 
+        <!-- Stats -->
         <section class="stats" id="impact" aria-labelledby="impact-title">
             <h2 class="section-title" id="impact-title">The Numbers Behind the <span class="gradient-text">Farm</span></h2>
             <div class="stats-grid">
@@ -880,8 +1247,8 @@
 
         <section class="cta" id="join-us" aria-labelledby="cta-title">
             <div class="cta-content">
-                <h2 id="cta-title">Eat Better. Grow Something.</h2>
-                <p>Whether you have a balcony, a backyard or a restaurant kitchen, there is a way to work with us. Tell us what you need and we will tell you honestly what we can do.</p>
+                <h2 id="cta-title">Eat Better. Buy Direct.</h2>
+                <p>Whether you cook for one or run a kitchen, we will tell you honestly what we can supply and when. No sales pitch.</p>
                 <a href="contact.html" class="btn-magnetic" id="magneticBtn">Talk to Us</a>
             </div>
         </section>
@@ -901,7 +1268,7 @@
                 <ul class="footer-links">
                     <li><a href="/">Home</a></li>
                     <li><a href="about.html">About Our Farm</a></li>
-                    <li><a href="products.html">Our Services</a></li>
+                    <li><a href="products.html">Our Produce</a></li>
                     <li><a href="contact.html">Contact / Farm Visit</a></li>
                 </ul>
             </div>
@@ -911,7 +1278,7 @@
                     <a href="https://facebook.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="social-icon-rounded" aria-label="Vaagai Green Farm on Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://instagram.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="social-icon-rounded" aria-label="Vaagai Green Farm on Instagram"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/company/vaagai-green-farm" target="_blank" rel="noopener noreferrer" class="social-icon-rounded" aria-label="Vaagai Green Farm on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://wa.me/919655118268?text=Hello%20Vaagai%20Green%20Farm%2C%20I%20would%20like%20to%20know%20about%20your%20vegetables%20and%20workshops." target="_blank" rel="noopener noreferrer" class="social-icon-rounded" style="background:#25D366;" aria-label="Chat with Vaagai Green Farm on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/919655118268?text=Hello%20Vaagai%20Green%20Farm%2C%20I%20would%20like%20to%20know%20about%20your%20vegetables." target="_blank" rel="noopener noreferrer" class="social-icon-rounded" style="background:#25D366; color:#062112;" aria-label="Chat with Vaagai Green Farm on WhatsApp"><i class="fab fa-whatsapp"></i></a>
                 </div>
                 <div class="share-row">
                     <span>Share:</span>
@@ -920,7 +1287,7 @@
                     <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://vaagai-green-farm.vercel.app/&title=Vaagai+Green+Farm" target="_blank" rel="noopener noreferrer" aria-label="Share this page on LinkedIn"><i class="fab fa-linkedin"></i></a>
                     <a href="https://wa.me/?text=Vaagai+Green+Farm%20https://vaagai-green-farm.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Share this page on WhatsApp"><i class="fab fa-whatsapp"></i></a>
                 </div>
-                <p style="margin-top:15px; font-size:0.85rem;">Natural farming in Arakkonam since 2020.</p>
+                <p style="margin-top:15px; font-size:0.85rem;">Third-generation family farm in Arakkonam.</p>
             </div>
         </div>
         <div class="footer-bottom">
@@ -930,7 +1297,7 @@
     </footer>
 
     <div class="floating-social-bar" aria-label="Social links">
-        <a href="https://wa.me/919655118268?text=Hello%20Vaagai%20Green%20Farm%2C%20I%20would%20like%20to%20know%20about%20your%20vegetables%20and%20workshops." target="_blank" rel="noopener noreferrer" class="float-social-icon float-wa" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/919655118268?text=Hello%20Vaagai%20Green%20Farm%2C%20I%20would%20like%20to%20know%20about%20your%20vegetables." target="_blank" rel="noopener noreferrer" class="float-social-icon float-wa" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
         <a href="https://www.facebook.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-fb" aria-label="Vaagai Green Farm on Facebook"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-ig" aria-label="Vaagai Green Farm on Instagram"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/company/vaagai-green-farm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-li" aria-label="Vaagai Green Farm on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -952,9 +1319,7 @@
                     el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
                     el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
                 });
-            } else if (cursor) {
-                cursor.style.display = 'none';
-            }
+            } else if (cursor) { cursor.style.display = 'none'; }
 
             if (window.matchMedia('(hover: hover)').matches && typeof VanillaTilt !== 'undefined') {
                 VanillaTilt.init(document.querySelectorAll(".tilt-card"), { max:8, speed:400, glare:true, "max-glare":0.2 });
@@ -969,6 +1334,40 @@
                 magneticBtn.addEventListener('mouseleave', () => { magneticBtn.style.transform = 'translate(0,0)'; });
             }
 
+            /* ===== STORY SECTION: staggered reveal ===== */
+            const storyItems = document.querySelectorAll('.story-line, .story-quote');
+            if (storyItems.length && 'IntersectionObserver' in window) {
+                const storyArray = Array.from(storyItems);
+                const storyObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const idx = storyArray.indexOf(entry.target);
+                            const delay = Math.max(idx, 0) * 180;
+                            setTimeout(() => {
+                                entry.target.classList.add('visible');
+                            }, delay);
+                            storyObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+                storyItems.forEach(el => storyObserver.observe(el));
+            } else {
+                storyItems.forEach(el => el.classList.add('visible'));
+            }
+
+            /* ===== FAQ TOGGLE ===== */
+            const faqToggle = document.getElementById('faqToggle');
+            const faqMore = document.getElementById('faqMore');
+            if (faqToggle && faqMore) {
+                faqToggle.addEventListener('click', () => {
+                    const isOpen = faqMore.classList.toggle('open');
+                    faqToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                    const label = faqToggle.querySelector('.faq-toggle-label');
+                    if (label) label.textContent = isOpen ? 'Show Fewer Questions' : 'Read More Questions';
+                });
+            }
+
+            /* ===== STAT CIRCLES ===== */
             const circles = document.querySelectorAll('.stat-circle');
             const observerOptions = { threshold: 0.4 };
             const animateCircle = (circle) => {
@@ -998,6 +1397,7 @@
             }, observerOptions);
             circles.forEach(c => circleObserver.observe(c));
 
+            /* ===== FADE-IN ON SCROLL ===== */
             const fadeItems = document.querySelectorAll('.fade-in-on-scroll');
             const revealOnScroll = () => fadeItems.forEach(el => {
                 if (el.getBoundingClientRect().top < window.innerHeight - 100) el.classList.add('show');
@@ -1005,15 +1405,17 @@
             window.addEventListener('scroll', revealOnScroll, { passive: true });
             revealOnScroll();
 
+            /* ===== NAVBAR SHADOW ===== */
             const navbar = document.querySelector('.navbar');
             if (navbar) {
                 window.addEventListener('scroll', () => {
                     navbar.style.boxShadow = window.scrollY > 50
-                        ? '0 10px 30px rgba(0,0,0,0.2)'
-                        : '0 4px 14px rgba(0,0,0,0.08)';
+                        ? '0 10px 30px rgba(0,0,0,0.25)'
+                        : '0 4px 14px rgba(0,0,0,0.1)';
                 }, { passive: true });
             }
 
+            /* ===== HAMBURGER ===== */
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('.nav-menu');
             if (hamburger && navMenu) {
@@ -1034,6 +1436,7 @@
                 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
             }
 
+            /* ===== SMOOTH ANCHOR ===== */
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     const hash = this.getAttribute('href');
