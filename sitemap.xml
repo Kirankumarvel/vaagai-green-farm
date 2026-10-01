@@ -1,78 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-      xmlns:fo="http://www.w3.org/1999/XSL/Format"
-      xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/</loc>
-  <lastmod>2026-07-10T08:03:48+00:00</lastmod>
-  <priority>1.00</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/" />
-</url>
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/ta/</loc>
-  <lastmod>2026-07-10T08:03:48+00:00</lastmod>
-  <priority>0.80</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/" />
-</url>
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/about.html</loc>
-  <lastmod>2026-07-10T08:03:49+00:00</lastmod>
-  <priority>0.80</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/about.html" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/about.html" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/about.html" />
-</url>
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/products.html</loc>
-  <lastmod>2026-07-10T08:03:49+00:00</lastmod>
-  <priority>0.80</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/products.html" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/products.html" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/products.html" />
-</url>
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/contact.html</loc>
-  <lastmod>2026-07-10T08:03:49+00:00</lastmod>
-  <priority>0.80</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/contact.html" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/contact.html" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/contact.html" />
-</url>
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/ta/about.html</loc>
-  <lastmod>2026-07-10T08:03:49+00:00</lastmod>
-  <priority>0.64</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/about.html" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/about.html" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/about.html" />
-</url>
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/ta/products.html</loc>
-  <lastmod>2026-07-10T08:03:50+00:00</lastmod>
-  <priority>0.64</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/products.html" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/products.html" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/products.html" />
-</url>
-<url>
-  <loc>https://vaagai-green-farm.vercel.app/ta/contact.html</loc>
-  <lastmod>2026-07-10T08:03:50+00:00</lastmod>
-  <priority>0.64</priority>
-  <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/contact.html" />
-  <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/contact.html" />
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/contact.html" />
-</url>
+    <!-- ============================================================
+         Vaagai Green Farm — XML Sitemap
+         https://vaagai-green-farm.vercel.app/
+         Bilingual: English (x-default) + Tamil (ta)
+         ============================================================ -->
+
+    <!-- ===================== ENGLISH PAGES ===================== -->
+
+    <!-- Home (EN) — primary landing page -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/"/>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>Vaagai Green Farm overview, Arakkonam, Tamil Nadu</image:title>
+            <image:caption>Third-generation family farm growing chemical-free vegetables in Arakkonam.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- About Us (EN) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/about.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/about.html"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/about.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/about.html"/>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/aravindan-m-founder-vaagai-green-farm.jpg</image:loc>
+            <image:title>Aravindan M, Founder of Vaagai Green Farm</image:title>
+            <image:caption>Aravindan M, B.E. Mechanical graduate and third-generation farmer, Arakkonam.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/trust-farmer-harvest.jpg</image:loc>
+            <image:title>Hand-harvesting chemical-free vegetables at Vaagai Green Farm</image:title>
+            <image:caption>Daily harvest of chemical-free vegetables at Vaagai Green Farm, Arakkonam.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Products / Our Produce (EN) — main commercial page -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/products.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/products.html"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/products.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/products.html"/>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/farm-thumb-1.jpg</image:loc>
+            <image:title>Fresh chemical-free vegetables from Vaagai Green Farm</image:title>
+            <image:caption>Freshly harvested chemical-free vegetables, Arakkonam, Tamil Nadu.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Contact / Farm Visit (EN) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/contact.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/contact.html"/>
+    </url>
+
+    <!-- ===================== TAMIL PAGES (தமிழ்) ===================== -->
+
+    <!-- முகப்பு (Home TA) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/ta/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/"/>
+    </url>
+
+    <!-- எங்களைப் பற்றி (About TA) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/ta/about.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/about.html"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/about.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/about.html"/>
+    </url>
+
+    <!-- எங்கள் விளைபொருட்கள் (Products TA) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/ta/products.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/products.html"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/products.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/products.html"/>
+    </url>
+
+    <!-- தொடர்பு (Contact TA) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/ta/contact.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://vaagai-green-farm.vercel.app/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="ta" href="https://vaagai-green-farm.vercel.app/ta/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://vaagai-green-farm.vercel.app/contact.html"/>
+    </url>
 
 </urlset>
