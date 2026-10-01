@@ -60,25 +60,16 @@
 
         /* ===== LANGUAGE SWITCHER ===== */
         .lang-switch {
-            background: #143838;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            gap: 0.5rem;
-            height: 2.4rem;
-            padding: 0 1.25rem;
-            font-size: 0.85rem;
-            position: sticky;
-            top: 0;
-            z-index: 1001;
+            background: #143838; color: white;
+            display: flex; align-items: center; justify-content: flex-end; gap: 0.5rem;
+            height: 2.4rem; padding: 0 1.25rem; font-size: 0.85rem;
+            position: sticky; top: 0; z-index: 1001;
         }
         .lang-switch a { color: #d6ded6; text-decoration: none; font-weight: 500; }
         .lang-switch a.active-lang { color: #22c55e; font-weight: 700; }
         .lang-switch a:hover { color: white; }
         .lang-switch span { color: #4b6b6b; }
 
-        /* ===== CORE STYLES ===== */
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { -webkit-text-size-adjust: 100%; }
         body { font-family: 'Poppins', sans-serif; overflow-x: hidden; background: #ffffff; color: #1f3030; }
@@ -111,10 +102,8 @@
 
         /* Hero */
         .hero {
-            position:relative;
-            background:linear-gradient(135deg,#143030,#1e4a4a);
-            overflow:hidden;
-            min-height:100vh; min-height:100svh;
+            position:relative; background:linear-gradient(135deg,#143030,#1e4a4a);
+            overflow:hidden; min-height:100vh; min-height:100svh;
             display:flex; align-items:center; justify-content:center;
             padding:7rem 1rem 4rem;
         }
@@ -195,191 +184,100 @@
         .feature-card h3 { font-size:1.6rem; color:#143030; margin-bottom:0.6rem; position:relative; z-index:2; }
         .feature-card p { color:#3b4a4a; line-height:1.65; position:relative; z-index:2; }
 
-        /* ===== STORY SECTION (animated reveal) ===== */
+        /* Story */
         .story-section {
             padding: 5rem 2rem;
             background: linear-gradient(180deg, #ffffff 0%, #f4fbf6 100%);
-            position: relative;
-            overflow: hidden;
+            position: relative; overflow: hidden;
         }
         .story-section::before {
-            content: '';
-            position: absolute;
-            top: 10%;
-            right: -120px;
-            width: 320px;
-            height: 320px;
+            content: ''; position: absolute; top: 10%; right: -120px;
+            width: 320px; height: 320px;
             background: radial-gradient(circle, rgba(34,197,94,0.08), transparent 65%);
-            border-radius: 50%;
-            pointer-events: none;
+            border-radius: 50%; pointer-events: none;
         }
-        .story-container {
-            max-width: 780px;
-            margin: 0 auto;
-            text-align: center;
-            position: relative;
-            z-index: 2;
-        }
+        .story-container { max-width: 780px; margin: 0 auto; text-align: center; position: relative; z-index: 2; }
         .story-eyebrow {
-            display: inline-block;
-            font-size: 0.78rem;
-            font-weight: 700;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: #15803d;
-            margin-bottom: 1.25rem;
+            display: inline-block; font-size: 0.78rem; font-weight: 700;
+            letter-spacing: 0.14em; text-transform: uppercase;
+            color: #15803d; margin-bottom: 1.25rem;
         }
-        .story-title {
-            font-size: 2.4rem;
-            color: #143030;
-            line-height: 1.3;
-            margin-bottom: 2.5rem;
-            font-weight: 700;
-        }
+        .story-title { font-size: 2.4rem; color: #143030; line-height: 1.3; margin-bottom: 2.5rem; font-weight: 700; }
         .story-title em { font-style: normal; color: #16a34a; }
         .story-line {
-            font-size: 1.08rem;
-            color: #2d3d3d;
-            line-height: 1.85;
-            margin: 0 auto 1.5rem;
-            max-width: 680px;
-            opacity: 0;
-            transform: translateY(24px);
+            font-size: 1.08rem; color: #2d3d3d; line-height: 1.85;
+            margin: 0 auto 1.5rem; max-width: 680px;
+            opacity: 0; transform: translateY(24px);
             transition: opacity 0.9s ease, transform 0.9s ease;
         }
         .story-line.visible { opacity: 1; transform: translateY(0); }
         .story-line strong { color: #143030; font-weight: 600; }
         .story-quote {
-            font-size: 1.35rem;
-            font-weight: 500;
-            font-style: italic;
-            color: #143030;
-            line-height: 1.6;
-            margin: 3rem auto 0;
-            padding-top: 2rem;
-            max-width: 640px;
+            font-size: 1.35rem; font-weight: 500; font-style: italic;
+            color: #143030; line-height: 1.6;
+            margin: 3rem auto 0; padding-top: 2rem; max-width: 640px;
             position: relative;
-            opacity: 0;
-            transform: translateY(24px);
+            opacity: 0; transform: translateY(24px);
             transition: opacity 1s ease, transform 1s ease;
         }
         .story-quote.visible { opacity: 1; transform: translateY(0); }
         .story-quote::before {
-            content: '';
-            display: block;
-            width: 48px;
-            height: 3px;
-            background: #22c55e;
-            margin: 0 auto 2rem;
-            border-radius: 2px;
+            content: ''; display: block; width: 48px; height: 3px;
+            background: #22c55e; margin: 0 auto 2rem; border-radius: 2px;
         }
 
-        /* ===== CTA BANNER (farmer story) ===== */
+        /* CTA banner */
         .cta-banner {
-            position: relative;
-            padding: 4.5rem 2rem;
+            position: relative; padding: 4.5rem 2rem;
             background: linear-gradient(135deg, #103030 0%, #1c4848 100%);
-            color: white;
-            text-align: center;
-            overflow: hidden;
+            color: white; text-align: center; overflow: hidden;
         }
         .cta-banner::before {
-            content: '';
-            position: absolute; inset: 0;
+            content: ''; position: absolute; inset: 0;
             background-image: url('images/hero-farm-overview.jpg');
-            background-size: cover;
-            background-position: center;
-            opacity: 0.1;
-            pointer-events: none;
+            background-size: cover; background-position: center;
+            opacity: 0.1; pointer-events: none;
         }
         .cta-banner::after {
-            content: '';
-            position: absolute; inset: 0;
+            content: ''; position: absolute; inset: 0;
             background: linear-gradient(90deg, rgba(10,30,30,0.4) 0%, rgba(10,30,30,0) 50%, rgba(10,30,30,0.4) 100%);
             pointer-events: none;
         }
-        .cta-banner-inner {
-            position: relative;
-            z-index: 2;
-            max-width: 820px;
-            margin: 0 auto;
-        }
+        .cta-banner-inner { position: relative; z-index: 2; max-width: 820px; margin: 0 auto; }
         .cta-banner-eyebrow {
-            display: inline-block;
-            font-size: 0.78rem;
-            font-weight: 700;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            color: #22c55e;
-            margin-bottom: 1.25rem;
+            display: inline-block; font-size: 0.78rem; font-weight: 700;
+            letter-spacing: 0.14em; text-transform: uppercase;
+            color: #22c55e; margin-bottom: 1.25rem;
         }
         .cta-banner h2 {
-            font-size: 2.1rem;
-            line-height: 1.35;
-            margin-bottom: 1.25rem;
-            font-weight: 600;
-            color: #ffffff;
+            font-size: 2.1rem; line-height: 1.35; margin-bottom: 1.25rem;
+            font-weight: 600; color: #ffffff;
         }
-        .cta-banner h2 em {
-            font-style: normal;
-            color: #22c55e;
-            font-weight: 700;
-        }
-        .cta-banner p {
-            color: #d4e6d4;
-            font-size: 1.05rem;
-            line-height: 1.75;
-            max-width: 680px;
-            margin: 0 auto;
-        }
+        .cta-banner h2 em { font-style: normal; color: #22c55e; font-weight: 700; }
+        .cta-banner p { color: #d4e6d4; font-size: 1.05rem; line-height: 1.75; max-width: 680px; margin: 0 auto; }
 
-        /* ===== WHAT WE NEVER DO ===== */
-        .never-section {
-            padding: 4rem 2rem;
-            background: #ffffff;
-        }
-        .never-inner {
-            max-width: 900px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .never-title {
-            font-size: 1.55rem;
-            color: #143030;
-            margin-bottom: 2rem;
-            font-weight: 700;
-        }
+        /* What we never do */
+        .never-section { padding: 4rem 2rem; background: #ffffff; }
+        .never-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+        .never-title { font-size: 1.55rem; color: #143030; margin-bottom: 2rem; font-weight: 700; }
         .never-title span { color: #b91c1c; }
         .never-list {
-            list-style: none;
-            padding: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 0.9rem;
-            text-align: left;
+            list-style: none; padding: 0;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 0.9rem; text-align: left;
         }
         .never-list li {
-            display: flex;
-            align-items: flex-start;
-            gap: 0.7rem;
+            display: flex; align-items: flex-start; gap: 0.7rem;
             padding: 0.9rem 1.1rem;
-            background: #fbfbfb;
-            border-left: 3px solid #b91c1c;
-            border-radius: 8px;
-            color: #2d3d3d;
-            font-size: 0.95rem;
-            line-height: 1.55;
+            background: #fbfbfb; border-left: 3px solid #b91c1c;
+            border-radius: 8px; color: #2d3d3d; font-size: 0.95rem; line-height: 1.55;
         }
         .never-list li::before {
-            content: '\2715';
-            color: #b91c1c;
-            font-weight: 700;
-            font-size: 0.9rem;
-            flex: 0 0 auto;
-            line-height: 1.55;
+            content: '\2715'; color: #b91c1c; font-weight: 700;
+            font-size: 0.9rem; flex: 0 0 auto; line-height: 1.55;
         }
 
-        /* Trust section */
+        /* Trust */
         .trust-section {
             display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center;
             background:linear-gradient(135deg,#f0faf4,#e3f5ea);
@@ -404,11 +302,61 @@
         .fact dt { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:#15803d; font-weight:700; margin-bottom:0.35rem; }
         .fact dd { font-size:0.98rem; color:#143030; font-weight:500; margin:0; line-height:1.5; word-break:break-word; }
 
+        /* ===== STATS (fixed) ===== */
+        .stats { padding:5rem 2rem; background:#f9f9f9; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .stat-circle { text-align: center; }
+        .stat-visual {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 0.9rem;
+        }
+        .circular-chart {
+            width: 100%; height: 100%;
+            transform: rotate(-90deg);
+            display: block;
+            overflow: visible;
+        }
+        .circle-bg { fill:none; stroke:#e0f2e0; stroke-width:3.8; }
+        .circle-progress {
+            fill:none; stroke:#22c55e; stroke-width:3.8;
+            stroke-linecap:round;
+            transition:stroke-dashoffset 1.8s ease-out;
+        }
+        .percentage-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.85rem;
+            font-weight: 700;
+            color: #143030;
+            line-height: 1;
+            margin: 0;
+            letter-spacing: -0.03em;
+            font-variant-numeric: tabular-nums;
+        }
+        .stat-label {
+            font-weight: 600;
+            color: #1f3030;
+            line-height: 1.45;
+            font-size: 0.95rem;
+            max-width: 200px;
+            margin: 0 auto;
+        }
+
         /* FAQ */
         .faq-block {
-            margin-top:3rem;
             max-width: 820px;
-            margin-left:auto; margin-right:auto;
+            margin: 0 auto;
             background: #ffffff;
             border: 1px solid rgba(34,197,94,0.18);
             border-radius: 20px;
@@ -423,48 +371,25 @@
         .faq-block dd a { color: #15803d; font-weight: 600; text-decoration: none; }
         .faq-block dd a:hover { text-decoration: underline; }
 
-        .faq-more {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.6s ease;
-        }
+        .faq-more { max-height: 0; overflow: hidden; transition: max-height 0.6s ease; }
         .faq-more.open { max-height: 6000px; }
         .faq-more dl > dt:first-of-type { margin-top: 1.75rem; }
 
         .faq-toggle-wrap {
-            text-align: center;
-            padding: 1.75rem 0 1.25rem;
+            text-align: center; padding: 1.75rem 0 1.25rem;
             border-top: 1px solid rgba(34,197,94,0.2);
             margin-top: 1rem;
         }
         .faq-toggle {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.6rem;
-            background: transparent;
-            border: 1.5px solid #15803d;
-            color: #15803d;
-            padding: 0.75rem 1.85rem;
-            border-radius: 50px;
-            font-size: 0.95rem;
-            font-weight: 600;
-            font-family: inherit;
-            cursor: pointer;
-            transition: background 0.25s, color 0.25s;
+            display: inline-flex; align-items: center; gap: 0.6rem;
+            background: transparent; border: 1.5px solid #15803d;
+            color: #15803d; padding: 0.75rem 1.85rem; border-radius: 50px;
+            font-size: 0.95rem; font-weight: 600; font-family: inherit;
+            cursor: pointer; transition: background 0.25s, color 0.25s;
         }
         .faq-toggle:hover { background: #15803d; color: white; }
         .faq-toggle svg { width: 13px; height: 13px; transition: transform 0.35s ease; }
         .faq-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
-
-        /* Stats */
-        .stats { padding:5rem 2rem; background:#f9f9f9; }
-        .stats-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; max-width:1000px; margin:0 auto; text-align:center; }
-        .stat-circle { position:relative; width:140px; height:140px; margin:0 auto 1rem; }
-        .circular-chart { width:100%; height:100%; transform:rotate(-90deg); }
-        .circle-bg { fill:none; stroke:#e0f2e0; stroke-width:3.8; }
-        .circle-progress { fill:none; stroke:#22c55e; stroke-width:3.8; stroke-linecap:round; transition:stroke-dasharray 1.8s ease-out; }
-        .percentage-text { fill:#143030; font-weight:700; text-anchor:middle; transform:rotate(90deg); transform-origin:center; }
-        .stat-label { margin-top:0.5rem; font-weight:600; color:#1f3030; line-height:1.45; }
 
         .cta { padding:5rem 2rem; text-align:center; background:linear-gradient(135deg,#143030,#1e4a4a); color:white; }
         .cta h2 { font-size:2.5rem; margin-bottom:1.5rem; line-height:1.2; }
@@ -490,10 +415,35 @@
         .social-icon-rounded { width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,0.12); display:flex; align-items:center; justify-content:center; color:white; font-size:1.2rem; transition:0.3s; }
         .social-icon-rounded:hover { background:#22c55e; color:#062112; transform:translateY(-3px); }
         .footer-bottom { text-align:center; padding-top:2rem; border-top:1px solid rgba(255,255,255,0.12); margin-top:2rem; font-size:0.9rem; color:#b8c8c8; }
-        .floating-social-bar { position:fixed; bottom:20px; right:20px; z-index:1000; display:flex; gap:1.2rem; background:rgba(20,48,48,0.85); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px); border:1px solid rgba(255,255,255,0.2); border-radius:50px; padding:0.8rem 1.5rem; box-shadow:0 10px 30px rgba(0,0,0,0.25); }
+
+        /* Floating bar */
+        .floating-social-bar {
+            position:fixed; bottom:20px; right:20px; z-index:1000;
+            display:flex; gap:1.2rem;
+            background:rgba(20,48,48,0.88);
+            backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
+            border:1px solid rgba(255,255,255,0.2);
+            border-radius:50px; padding:0.8rem 1.5rem;
+            box-shadow:0 10px 30px rgba(0,0,0,0.25);
+            transition: gap 0.3s, padding 0.3s;
+        }
         .float-social-icon { font-size:1.8rem; color:white; transition:0.2s; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.25)); }
         .float-social-icon:hover { transform:translateY(-5px) scale(1.15); filter:drop-shadow(0 8px 12px rgba(34,197,94,0.5)); }
-        .float-wa:hover { color:#25D366; } .float-fb:hover { color:#1877F2; } .float-ig:hover { color:#E1306C; } .float-li:hover { color:#0077B5; }
+        .float-wa:hover { color:#25D366; }
+        .float-fb:hover { color:#1877F2; }
+        .float-ig:hover { color:#E1306C; }
+        .float-li:hover { color:#0077B5; }
+        .float-call { color: #7be89b; }
+        .float-call:hover { color: #22c55e; }
+
+        /* Desktop keeps all icons. Mobile hides the social three. */
+        @media (min-width: 769px) {
+            .mobile-only-float { display: none; }
+        }
+        @media (max-width: 768px) {
+            .desktop-only-float { display: none; }
+        }
+
         .share-row { text-align:center; margin-top:1rem; color:#d6ded6; }
         .share-row a { color:#d6ded6; margin:0 0.5rem; font-size:1.15rem; transition:0.3s; }
         .share-row a:hover { color:#22c55e; }
@@ -504,7 +454,8 @@
             .trust-section { padding:2.5rem 1.75rem; }
         }
 
-        @media (max-width:768px) {
+        /* ===== TABLET ===== */
+        @media (max-width: 768px) {
             .navbar { padding: 0.85rem 1.25rem; }
             .hamburger { display:flex; }
             .nav-menu {
@@ -558,13 +509,40 @@
             .fact-list { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
             .fact { padding: 0.9rem 1rem; }
 
+            /* Stats: horizontal row-per-stat on mobile */
+            .stats { padding: 3rem 1.25rem; }
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 1.35rem;
+                max-width: 380px;
+                margin: 0 auto;
+                text-align: left;
+            }
+            .stat-circle {
+                display: flex;
+                align-items: center;
+                gap: 1.15rem;
+                text-align: left;
+            }
+            .stat-visual {
+                flex: 0 0 88px;
+                width: 88px;
+                height: 88px;
+                margin: 0;
+            }
+            .percentage-text { font-size: 1.15rem; }
+            .stat-label {
+                text-align: left;
+                max-width: none;
+                margin: 0;
+                font-size: 0.95rem;
+                line-height: 1.45;
+            }
+
             .faq-block { padding: 1.75rem 1.4rem 0.5rem; border-radius: 16px; }
             .faq-block h2 { font-size: 1.5rem; margin-bottom: 1.25rem; }
             .faq-block dt { font-size: 1rem; }
             .faq-block dd { font-size: 0.94rem; line-height: 1.7; }
-
-            .stats { padding: 3.5rem 1.25rem; }
-            .stats-grid { grid-template-columns: 1fr; gap: 1.75rem; }
 
             .cta { padding: 3.5rem 1.25rem; }
             .cta h2 { font-size: 1.7rem; }
@@ -576,7 +554,8 @@
             .social-links-modern { justify-content: center; }
         }
 
-        @media (max-width:480px) {
+        /* ===== PHONE ===== */
+        @media (max-width: 480px) {
             .lang-switch { font-size: 0.78rem; padding: 0 0.9rem; }
             .navbar { padding: 0.7rem 0.9rem; }
             .logo-text { font-size: 1.1rem; gap: 0.35rem; }
@@ -615,14 +594,17 @@
             .fact-list { grid-template-columns: 1fr; }
             .fact dd { font-size: 0.93rem; }
 
+            .stats { padding: 2.75rem 1rem; }
+            .stats-grid { max-width: 340px; gap: 1.2rem; }
+            .stat-visual { flex: 0 0 80px; width: 80px; height: 80px; }
+            .percentage-text { font-size: 1.05rem; }
+            .stat-label { font-size: 0.9rem; }
+
             .faq-block { padding: 1.5rem 1.1rem 0.5rem; }
             .faq-block h2 { font-size: 1.35rem; }
             .faq-block dt { font-size: 0.95rem; }
             .faq-block dd { font-size: 0.9rem; line-height: 1.7; }
             .faq-toggle { padding: 0.65rem 1.4rem; font-size: 0.88rem; }
-
-            .stat-circle { width: 110px; height: 110px; }
-            .stat-label { font-size: 0.88rem; }
 
             .cta h2 { font-size: 1.5rem; }
             .cta p { font-size: 0.95rem; }
@@ -632,16 +614,25 @@
             .footer-section p, .footer-links a { font-size: 0.9rem; }
             .footer-bottom { font-size: 0.82rem; }
 
-            .floating-social-bar { bottom: 12px; right: 12px; padding: 0.5rem 0.85rem; gap: 0.55rem; }
-            .float-social-icon { font-size: 1.25rem; }
+            /* Mobile floating bar: only Call and WhatsApp */
+            .floating-social-bar {
+                bottom: 14px; right: 14px;
+                padding: 0.55rem 1rem;
+                gap: 1.1rem;
+                border-radius: 50px;
+            }
+            .float-social-icon { font-size: 1.5rem; }
         }
 
-        @media (max-width:360px) {
+        @media (max-width: 360px) {
             .logo-text { font-size: 1rem; }
             .hero-title { font-size: 1.6rem; }
-            .stat-circle { width: 96px; height: 96px; }
-            .floating-social-bar { gap: 0.45rem; padding: 0.45rem 0.75rem; }
-            .float-social-icon { font-size: 1.1rem; }
+            .stats-grid { max-width: 300px; }
+            .stat-visual { flex: 0 0 72px; width: 72px; height: 72px; }
+            .percentage-text { font-size: 0.98rem; }
+            .stat-label { font-size: 0.85rem; }
+            .floating-social-bar { padding: 0.5rem 0.9rem; gap: 0.95rem; }
+            .float-social-icon { font-size: 1.35rem; }
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -866,81 +857,21 @@
           "@type": "FAQPage",
           "@id": "https://vaagai-green-farm.vercel.app/#faq",
           "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Is Vaagai Green Farm completely natural?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes. We have used no synthetic pesticides or chemical fertilisers since we started in 2020. We are not certified organic, because the certification cost is hard to justify for a farm our size, but the growing methods we follow are just as strict." }
-            },
-            {
-              "@type": "Question",
-              "name": "Who runs Vaagai Green Farm?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Vaagai Green Farm is run by a third-generation farmer from Arakkonam. He trained in mechanical engineering (B.E. Mechanical) and left that career to work his family's land full-time. His grandfather farmed, his father farmed, and he is the third in line." }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you farm on your own land?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vaagai Green Farm operates on its own family farm land in Arakkonam. We are not a collective or a rented plot, which lets us control every step from sowing to harvest." }
-            },
-            {
-              "@type": "Question",
-              "name": "Where do you deliver?",
-              "acceptedAnswer": { "@type": "Answer", "text": "We deliver across Arakkonam and nearby towns in Ranipet and Kanchipuram districts. Orders placed before 6 pm are usually delivered the next morning." }
-            },
-            {
-              "@type": "Question",
-              "name": "How much do the vegetables cost?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Prices move with the season and the crop. A weekly basket starts at around ₹400. Message us on WhatsApp at +91 96551 18268 for the current list and rates." }
-            },
-            {
-              "@type": "Question",
-              "name": "Can I visit the farm?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes, by appointment. Call ahead on +91 96551 18268 and we will set a time, usually on a weekend." }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you run farming workshops?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Not yet. We plan to run short sessions on hydroponics, aquaponics and beekeeping in the future. When that starts, we will announce it on our social pages first." }
-            },
-            {
-              "@type": "Question",
-              "name": "What crops do you grow through the year?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Our year splits into three seasons. Summer gives us greens, brinjal, okra and tomatoes. The monsoon brings beans, gourds and leafy vegetables. Winter is for cabbage, cauliflower, carrot and beetroot. We plant what suits the season, not what sells fastest." }
-            },
-            {
-              "@type": "Question",
-              "name": "How do you handle pests without chemicals?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Neem oil, garlic and chilli sprays, and physical traps. We also plant marigolds and other border crops to draw pests away from the main beds and to bring in bees and ladybirds that feed on them. Healthy soil means stronger plants that fight off most damage on their own." }
-            },
-            {
-              "@type": "Question",
-              "name": "Is your produce certified organic?",
-              "acceptedAnswer": { "@type": "Answer", "text": "No. We follow organic methods but do not carry a certification label. Certification costs more than a small farm can justify, and we would rather put that money into the soil and the seed. You are welcome to visit the farm and see how we grow before you buy." }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the smallest order you deliver?",
-              "acceptedAnswer": { "@type": "Answer", "text": "There is no strict minimum. Most households start with a weekly basket around ₹400 to ₹600. If you are close to Arakkonam, we can also do smaller orders on request." }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you offer a weekly subscription basket?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Many families take a weekly basket of seasonal vegetables, either fixed or let us choose what is freshest that week. Message us on WhatsApp and we will set up a standing order." }
-            },
-            {
-              "@type": "Question",
-              "name": "Can I buy directly at the farm?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes, by appointment. Call ahead so we are free when you arrive, and you can pick up what is in season that day directly from the field." }
-            },
-            {
-              "@type": "Question",
-              "name": "What kind of honey do you sell?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Raw, unheated honey from native bee colonies kept on the farm. It is not blended, flavoured or pasteurised. What the bees made is what goes in the bottle." }
-            },
-            {
-              "@type": "Question",
-              "name": "Do you supply hotels and restaurants?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Yes. We supply a small number of kitchens in Arakkonam and Ranipet on weekly contracts. Send us your weekly requirement and we will tell you what we can commit to." }
-            }
+            { "@type": "Question", "name": "Is Vaagai Green Farm completely natural?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We have used no synthetic pesticides or chemical fertilisers since we started in 2020. We are not certified organic, because the certification cost is hard to justify for a farm our size, but the growing methods we follow are just as strict." } },
+            { "@type": "Question", "name": "Who runs Vaagai Green Farm?", "acceptedAnswer": { "@type": "Answer", "text": "Vaagai Green Farm is run by a third-generation farmer from Arakkonam. He trained in mechanical engineering (B.E. Mechanical) and left that career to work his family's land full-time. His grandfather farmed, his father farmed, and he is the third in line." } },
+            { "@type": "Question", "name": "Do you farm on your own land?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vaagai Green Farm operates on its own family farm land in Arakkonam. We are not a collective or a rented plot, which lets us control every step from sowing to harvest." } },
+            { "@type": "Question", "name": "Where do you deliver?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver across Arakkonam and nearby towns in Ranipet and Kanchipuram districts. Orders placed before 6 pm are usually delivered the next morning." } },
+            { "@type": "Question", "name": "How much do the vegetables cost?", "acceptedAnswer": { "@type": "Answer", "text": "Prices move with the season and the crop. A weekly basket starts at around ₹400. Message us on WhatsApp at +91 96551 18268 for the current list and rates." } },
+            { "@type": "Question", "name": "Can I visit the farm?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, by appointment. Call ahead on +91 96551 18268 and we will set a time, usually on a weekend." } },
+            { "@type": "Question", "name": "Do you run farming workshops?", "acceptedAnswer": { "@type": "Answer", "text": "Not yet. We plan to run short sessions on hydroponics, aquaponics and beekeeping in the future. When that starts, we will announce it on our social pages first." } },
+            { "@type": "Question", "name": "What crops do you grow through the year?", "acceptedAnswer": { "@type": "Answer", "text": "Our year splits into three seasons. Summer gives us greens, brinjal, okra and tomatoes. The monsoon brings beans, gourds and leafy vegetables. Winter is for cabbage, cauliflower, carrot and beetroot. We plant what suits the season, not what sells fastest." } },
+            { "@type": "Question", "name": "How do you handle pests without chemicals?", "acceptedAnswer": { "@type": "Answer", "text": "Neem oil, garlic and chilli sprays, and physical traps. We also plant marigolds and other border crops to draw pests away from the main beds and to bring in bees and ladybirds that feed on them. Healthy soil means stronger plants that fight off most damage on their own." } },
+            { "@type": "Question", "name": "Is your produce certified organic?", "acceptedAnswer": { "@type": "Answer", "text": "No. We follow organic methods but do not carry a certification label. Certification costs more than a small farm can justify, and we would rather put that money into the soil and the seed. You are welcome to visit the farm and see how we grow before you buy." } },
+            { "@type": "Question", "name": "What is the smallest order you deliver?", "acceptedAnswer": { "@type": "Answer", "text": "There is no strict minimum. Most households start with a weekly basket around ₹400 to ₹600. If you are close to Arakkonam, we can also do smaller orders on request." } },
+            { "@type": "Question", "name": "Do you offer a weekly subscription basket?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Many families take a weekly basket of seasonal vegetables, either fixed or let us choose what is freshest that week. Message us on WhatsApp and we will set up a standing order." } },
+            { "@type": "Question", "name": "Can I buy directly at the farm?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, by appointment. Call ahead so we are free when you arrive, and you can pick up what is in season that day directly from the field." } },
+            { "@type": "Question", "name": "What kind of honey do you sell?", "acceptedAnswer": { "@type": "Answer", "text": "Raw, unheated honey from native bee colonies kept on the farm. It is not blended, flavoured or pasteurised. What the bees made is what goes in the bottle." } },
+            { "@type": "Question", "name": "Do you supply hotels and restaurants?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We supply a small number of kitchens in Arakkonam and Ranipet on weekly contracts. Send us your weekly requirement and we will tell you what we can commit to." } }
           ]
         }
       ]
@@ -1064,7 +995,7 @@
             </div>
         </section>
 
-        <!-- ===== STORY SECTION (animated reveal) ===== -->
+        <!-- Story -->
         <section class="story-section" aria-labelledby="story-title">
             <div class="story-container">
                 <span class="story-eyebrow">The story behind the farm</span>
@@ -1086,7 +1017,7 @@
             </div>
         </section>
 
-        <!-- ===== CTA BANNER (farmer story) ===== -->
+        <!-- CTA Banner -->
         <section class="cta-banner" aria-label="About the farmer behind Vaagai Green Farm">
             <div class="cta-banner-inner">
                 <span class="cta-banner-eyebrow">Three generations. One engineer. One farm.</span>
@@ -1097,7 +1028,7 @@
             </div>
         </section>
 
-        <!-- ===== WHAT WE NEVER DO ===== -->
+        <!-- What We Never Do -->
         <section class="never-section" aria-labelledby="never-title">
             <div class="never-inner">
                 <h2 class="never-title" id="never-title">What We <span>Never</span> Do</h2>
@@ -1112,7 +1043,7 @@
             </div>
         </section>
 
-        <!-- Trust section + Facts + FAQ -->
+        <!-- Trust + Facts -->
         <section class="container" id="why-us" style="max-width:1200px; margin:0 auto; padding:0 1.25rem;">
             <div class="trust-section">
                 <div class="trust-image">
@@ -1122,7 +1053,7 @@
                 </div>
                 <div class="trust-content">
                     <h2>Why Families Around Arakkonam Buy From Us</h2>
-                    <p><strong>The land has been in the family for three generations.</strong> The current farmer trained as a mechanical engineer, then walked away from that career to work this ground full-time. He started Vaagai Green Farm in 2020 with one rule: grow food we would feed our own family. Every bed is checked by hand, and nothing leaves the farm unless we would eat it ourselves.</p>
+                    <p><strong>The land has been in the family for three generations.</strong> We started Vaagai Green Farm in 2020 with one rule: grow food we would feed our own family. Every bed is checked by hand, and nothing leaves the farm unless we would eat it ourselves.</p>
                     <ul class="trust-list">
                         <li>Third-generation farming family, working our own land</li>
                         <li>B.E. Mechanical graduate turned full-time farmer</li>
@@ -1147,8 +1078,47 @@
                     <div class="fact"><dt>Phone</dt><dd>+91 96551 18268</dd></div>
                 </dl>
             </div>
+        </section>
 
-            <!-- FAQ -->
+        <!-- Stats -->
+        <section class="stats" id="impact" aria-labelledby="impact-title">
+            <h2 class="section-title" id="impact-title">The Numbers Behind the <span class="gradient-text">Farm</span></h2>
+            <div class="stats-grid">
+                <div class="stat-circle" data-percent="80">
+                    <div class="stat-visual">
+                        <svg viewBox="0 0 36 36" class="circular-chart" role="img" aria-label="80 percent less water used than conventional beds">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        </svg>
+                        <span class="percentage-text" id="stat1">0</span>
+                    </div>
+                    <p class="stat-label">Less water than conventional beds</p>
+                </div>
+                <div class="stat-circle" data-percent="92">
+                    <div class="stat-visual">
+                        <svg viewBox="0 0 36 36" class="circular-chart" role="img" aria-label="92 percent of families order again">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        </svg>
+                        <span class="percentage-text" id="stat2">0</span>
+                    </div>
+                    <p class="stat-label">Families who order again</p>
+                </div>
+                <div class="stat-circle" data-percent="98">
+                    <div class="stat-visual">
+                        <svg viewBox="0 0 36 36" class="circular-chart" role="img" aria-label="98 percent customer satisfaction">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        </svg>
+                        <span class="percentage-text" id="stat4">0</span>
+                    </div>
+                    <p class="stat-label">Customer satisfaction</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="container" id="faq-section" style="max-width:1200px; margin:0 auto; padding:3rem 1.25rem 4rem;">
             <div class="faq-block" id="faq">
                 <h2>Questions We Get Asked</h2>
                 <dl>
@@ -1171,7 +1141,6 @@
                     <dd>Yes, by appointment. Call ahead so someone is free to walk you around. <a href="contact.html">Book a farm visit</a>.</dd>
                 </dl>
 
-                <!-- Hidden FAQs, revealed by the toggle below -->
                 <div class="faq-more" id="faqMore">
                     <dl>
                         <dt><strong>Do you run farming workshops?</strong></dt>
@@ -1210,37 +1179,6 @@
                             <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Stats -->
-        <section class="stats" id="impact" aria-labelledby="impact-title">
-            <h2 class="section-title" id="impact-title">The Numbers Behind the <span class="gradient-text">Farm</span></h2>
-            <div class="stats-grid">
-                <div class="stat-circle" data-percent="80">
-                    <svg viewBox="0 0 36 36" class="circular-chart" role="img" aria-label="80 percent less water used than conventional beds">
-                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                        <text x="18" y="18" font-size="5" dominant-baseline="central" class="percentage-text" id="stat1">0</text>
-                    </svg>
-                    <p class="stat-label">Less water than conventional beds</p>
-                </div>
-                <div class="stat-circle" data-percent="92">
-                    <svg viewBox="0 0 36 36" class="circular-chart" role="img" aria-label="92 percent of families order again">
-                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                        <text x="18" y="18" font-size="5" dominant-baseline="central" class="percentage-text" id="stat2">0</text>
-                    </svg>
-                    <p class="stat-label">Families who order again</p>
-                </div>
-                <div class="stat-circle" data-percent="98">
-                    <svg viewBox="0 0 36 36" class="circular-chart" role="img" aria-label="98 percent customer satisfaction">
-                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                        <text x="18" y="18" font-size="5" dominant-baseline="central" class="percentage-text" id="stat4">0</text>
-                    </svg>
-                    <p class="stat-label">Customer satisfaction</p>
                 </div>
             </div>
         </section>
@@ -1296,11 +1234,23 @@
         </div>
     </footer>
 
-    <div class="floating-social-bar" aria-label="Social links">
-        <a href="https://wa.me/919655118268?text=Hello%20Vaagai%20Green%20Farm%2C%20I%20would%20like%20to%20know%20about%20your%20vegetables." target="_blank" rel="noopener noreferrer" class="float-social-icon float-wa" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.facebook.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-fb" aria-label="Vaagai Green Farm on Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-ig" aria-label="Vaagai Green Farm on Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/vaagai-green-farm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-li" aria-label="Vaagai Green Farm on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <!-- Floating bar -->
+    <div class="floating-social-bar" aria-label="Contact Vaagai Green Farm">
+        <a href="tel:+919655118268" class="float-social-icon float-call" aria-label="Call Vaagai Green Farm">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="https://wa.me/919655118268?text=Hello%20Vaagai%20Green%20Farm%2C%20I%20would%20like%20to%20know%20about%20your%20vegetables." target="_blank" rel="noopener noreferrer" class="float-social-icon float-wa" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.facebook.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-fb desktop-only-float" aria-label="Vaagai Green Farm on Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/vaagaigreenfarm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-ig desktop-only-float" aria-label="Vaagai Green Farm on Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/vaagai-green-farm" target="_blank" rel="noopener noreferrer" class="float-social-icon float-li desktop-only-float" aria-label="Vaagai Green Farm on LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
@@ -1334,7 +1284,7 @@
                 magneticBtn.addEventListener('mouseleave', () => { magneticBtn.style.transform = 'translate(0,0)'; });
             }
 
-            /* ===== STORY SECTION: staggered reveal ===== */
+            /* Story section staggered reveal */
             const storyItems = document.querySelectorAll('.story-line, .story-quote');
             if (storyItems.length && 'IntersectionObserver' in window) {
                 const storyArray = Array.from(storyItems);
@@ -1355,7 +1305,7 @@
                 storyItems.forEach(el => el.classList.add('visible'));
             }
 
-            /* ===== FAQ TOGGLE ===== */
+            /* FAQ toggle */
             const faqToggle = document.getElementById('faqToggle');
             const faqMore = document.getElementById('faqMore');
             if (faqToggle && faqMore) {
@@ -1367,7 +1317,7 @@
                 });
             }
 
-            /* ===== STAT CIRCLES ===== */
+            /* Stat circles */
             const circles = document.querySelectorAll('.stat-circle');
             const observerOptions = { threshold: 0.4 };
             const animateCircle = (circle) => {
@@ -1397,7 +1347,7 @@
             }, observerOptions);
             circles.forEach(c => circleObserver.observe(c));
 
-            /* ===== FADE-IN ON SCROLL ===== */
+            /* Fade in on scroll */
             const fadeItems = document.querySelectorAll('.fade-in-on-scroll');
             const revealOnScroll = () => fadeItems.forEach(el => {
                 if (el.getBoundingClientRect().top < window.innerHeight - 100) el.classList.add('show');
@@ -1405,7 +1355,7 @@
             window.addEventListener('scroll', revealOnScroll, { passive: true });
             revealOnScroll();
 
-            /* ===== NAVBAR SHADOW ===== */
+            /* Navbar shadow on scroll */
             const navbar = document.querySelector('.navbar');
             if (navbar) {
                 window.addEventListener('scroll', () => {
@@ -1415,7 +1365,7 @@
                 }, { passive: true });
             }
 
-            /* ===== HAMBURGER ===== */
+            /* Hamburger */
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('.nav-menu');
             if (hamburger && navMenu) {
@@ -1436,7 +1386,6 @@
                 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
             }
 
-            /* ===== SMOOTH ANCHOR ===== */
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     const hash = this.getAttribute('href');
