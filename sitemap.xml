@@ -4,7 +4,18 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-    
+    <!-- ============================================================
+         Vaagai Green Farm — XML Sitemap
+         https://vaagai-green-farm.vercel.app/
+         Bilingual: English (x-default) + Tamil (ta)
+         Last updated: 2026-10-01
+         ============================================================ -->
+
+    <!-- ============================================================
+         ENGLISH PAGES
+         ============================================================ -->
+
+    <!-- Home (EN) — primary landing page -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/</loc>
         <lastmod>2026-10-01</lastmod>
@@ -51,7 +62,7 @@
         </image:image>
     </url>
 
-    <!-- Products / What We Grow (EN) — main commercial page -->
+    <!-- Products / What We Grow (EN) -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/products.html</loc>
         <lastmod>2026-10-01</lastmod>
@@ -93,7 +104,9 @@
         </image:image>
     </url>
 
-    <!-- ===================== TAMIL PAGES (தமிழ்) ===================== -->
+    <!-- ============================================================
+         TAMIL PAGES (தமிழ்)
+         ============================================================ -->
 
     <!-- முகப்பு (Home TA) -->
     <url>
