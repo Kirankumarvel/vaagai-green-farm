@@ -327,11 +327,11 @@
             font-size: 0.9rem; flex: 0 0 auto; line-height: 1.55;
         }
 
-        /* ===== CTA BANNER ===== */
+        /* ===== CTA BANNER (with farmer photo) ===== */
         .cta-banner {
             position: relative; padding: 4.5rem 2rem;
             background: linear-gradient(135deg, #103030 0%, #1c4848 100%);
-            color: white; text-align: center; overflow: hidden;
+            color: white; overflow: hidden;
         }
         .cta-banner::before {
             content: ''; position: absolute; inset: 0;
@@ -341,21 +341,47 @@
         }
         .cta-banner::after {
             content: ''; position: absolute; inset: 0;
-            background: linear-gradient(90deg, rgba(10,30,30,0.4) 0%, rgba(10,30,30,0) 50%, rgba(10,30,30,0.4) 100%);
+            background: linear-gradient(90deg, rgba(10,30,30,0.5) 0%, rgba(10,30,30,0.15) 50%, rgba(10,30,30,0.5) 100%);
             pointer-events: none;
         }
-        .cta-banner-inner { position: relative; z-index: 2; max-width: 820px; margin: 0 auto; }
+        .cta-banner-inner {
+            position: relative; z-index: 2;
+            max-width: 900px; margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 2.25rem;
+            text-align: left;
+        }
+        .cta-banner-photo {
+            flex: 0 0 140px;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid rgba(34,197,94,0.55);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.35), 0 0 0 6px rgba(34,197,94,0.12);
+            position: relative;
+        }
+        .cta-banner-photo img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .cta-banner-text { flex: 1 1 auto; min-width: 0; }
         .cta-banner-eyebrow {
             display: inline-block; font-size: 0.78rem; font-weight: 700;
             letter-spacing: 0.14em; text-transform: uppercase;
-            color: #22c55e; margin-bottom: 1.25rem;
+            color: #22c55e; margin-bottom: 1rem;
         }
         .cta-banner h2 {
-            font-size: 2.1rem; line-height: 1.35; margin-bottom: 1.25rem;
+            font-size: 1.85rem; line-height: 1.35; margin-bottom: 1rem;
             font-weight: 600; color: #ffffff;
         }
         .cta-banner h2 em { font-style: normal; color: #22c55e; font-weight: 700; }
-        .cta-banner p { color: #d4e6d4; font-size: 1.05rem; line-height: 1.75; max-width: 680px; margin: 0 auto; }
+        .cta-banner p {
+            color: #d4e6d4; font-size: 1rem; line-height: 1.7;
+            max-width: 560px; margin: 0;
+        }
 
         /* ===== FAQ ===== */
         .faq-section { padding: 4rem 1.25rem 5rem; background: #f9f9f9; }
@@ -523,8 +549,18 @@
 
             /* CTA banner */
             .cta-banner { padding: 3.25rem 1.25rem; }
-            .cta-banner h2 { font-size: 1.6rem; }
-            .cta-banner p { font-size: 0.98rem; }
+            .cta-banner-inner {
+                flex-direction: column;
+                text-align: center;
+                gap: 1.75rem;
+            }
+            .cta-banner-photo {
+                flex: 0 0 120px;
+                width: 120px;
+                height: 120px;
+            }
+            .cta-banner h2 { font-size: 1.55rem; }
+            .cta-banner p { font-size: 0.96rem; margin: 0 auto; }
 
             /* FAQ */
             .faq-section { padding: 3rem 1.25rem 4rem; }
@@ -599,7 +635,16 @@
             .never-list li { font-size: 0.88rem; }
 
             /* CTA banner */
-            .cta-banner h2 { font-size: 1.35rem; line-height: 1.35; }
+            .cta-banner { padding: 2.75rem 1rem; }
+            .cta-banner-inner { gap: 1.5rem; }
+            .cta-banner-photo {
+                flex: 0 0 100px;
+                width: 100px;
+                height: 100px;
+                border-width: 3px;
+                box-shadow: 0 12px 28px rgba(0,0,0,0.35), 0 0 0 5px rgba(34,197,94,0.12);
+            }
+            .cta-banner h2 { font-size: 1.3rem; line-height: 1.35; }
             .cta-banner p { font-size: 0.92rem; }
 
             /* FAQ */
@@ -652,6 +697,15 @@
             .coming-card h2 { font-size: 1.2rem; }
             .coming-card p { font-size: 0.88rem; }
             .coming-list li { font-size: 0.85rem; }
+
+            .cta-banner { padding: 2.5rem 0.85rem; }
+            .cta-banner-photo {
+                flex: 0 0 88px;
+                width: 88px;
+                height: 88px;
+            }
+            .cta-banner h2 { font-size: 1.2rem; }
+            .cta-banner p { font-size: 0.88rem; }
 
             .faq-section { padding-left: 0.85rem; padding-right: 0.85rem; }
 
@@ -742,7 +796,8 @@
           "description": "Third-generation farmer and founder of Vaagai Green Farm. Trained in mechanical engineering (B.E. Mechanical) before returning to full-time farming on the family's own land in Arakkonam.",
           "worksFor": { "@id": "https://vaagai-green-farm.vercel.app/#organization" },
           "knowsAbout": ["Natural farming","Hydroponics","Aquaponics","Beekeeping"],
-          "address": { "@id": "https://vaagai-green-farm.vercel.app/#address" }
+          "address": { "@id": "https://vaagai-green-farm.vercel.app/#address" },
+          "image": "https://vaagai-green-farm.vercel.app/images/farmer-aravindan.jpg"
         },
         {
           "@type": ["LocalBusiness", "Farm"],
@@ -1203,14 +1258,21 @@
             </div>
         </section>
 
-        <!-- CTA Banner -->
-        <section class="cta-banner" aria-label="About the farmer behind the farm">
+        <!-- CTA Banner — Meet the farmer -->
+        <section class="cta-banner" aria-label="About Aravindan M, founder of Vaagai Green Farm">
             <div class="cta-banner-inner">
-                <span class="cta-banner-eyebrow">Three generations. One engineer. One farm.</span>
-                <h2>A B.E. Mechanical degree sits framed on the wall. <em>This farm is what he wakes up for.</em></h2>
-                <p>
-                    Everything on this page was grown, picked, packed and priced by one man and his family. If you want to see where your food comes from, you are welcome to visit.
-                </p>
+                <div class="cta-banner-photo">
+                    <img src="images/farmer-aravindan.jpg"
+                         alt="Aravindan M, founder of Vaagai Green Farm in Arakkonam"
+                         width="280" height="280" loading="lazy">
+                </div>
+                <div class="cta-banner-text">
+                    <span class="cta-banner-eyebrow">Aravindan M &middot; Founder</span>
+                    <h2>A B.E. Mechanical degree sits framed on the wall. <em>This farm is what he wakes up for.</em></h2>
+                    <p>
+                        Every vegetable, every jar of honey, every flower on this page was grown, picked, packed and priced by Aravindan and his family. If you want to see where your food comes from, you are welcome to visit.
+                    </p>
+                </div>
             </div>
         </section>
 
