@@ -2,13 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-    <!-- ========== HOME PAGE IMAGES ========== -->
+    <!-- ============================================================
+         Vaagai Green Farm — Image Sitemap
+         https://vaagai-green-farm.vercel.app/
+         Last updated: 2026-10-01
+         ============================================================ -->
+
+    <!-- ===================== ENGLISH PAGES ===================== -->
+
+    <!-- Home (EN) -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/</loc>
+        <lastmod>2026-10-01</lastmod>
         <image:image>
             <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
             <image:title>Vaagai Green Farm overview in Arakkonam, Tamil Nadu</image:title>
             <image:caption>Aerial view of Vaagai Green Farm, a third-generation family farm growing chemical-free vegetables in Arakkonam.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/trust-farmer-harvest.jpg</image:loc>
+            <image:title>Hand-harvesting chemical-free vegetables at Vaagai Green Farm</image:title>
+            <image:caption>Daily harvest of chemical-free vegetables at Vaagai Green Farm, Arakkonam.</image:caption>
         </image:image>
         <image:image>
             <image:loc>https://vaagai-green-farm.vercel.app/images/logo.png</image:loc>
@@ -17,9 +31,10 @@
         </image:image>
     </url>
 
-    <!-- ========== ABOUT PAGE IMAGES (EN) ========== -->
+    <!-- About Us (EN) -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/about.html</loc>
+        <lastmod>2026-10-01</lastmod>
         <image:image>
             <image:loc>https://vaagai-green-farm.vercel.app/images/aravindan-m-founder-vaagai-green-farm.jpg</image:loc>
             <image:title>Aravindan M, Founder of Vaagai Green Farm</image:title>
@@ -28,7 +43,12 @@
         <image:image>
             <image:loc>https://vaagai-green-farm.vercel.app/images/trust-farmer-harvest.jpg</image:loc>
             <image:title>Natural farmer harvest at Vaagai Green Farm</image:title>
-            <image:caption>Hand-harvesting chemical-free vegetables at Vaagai Green Farm, Arakkonam.</image:caption>
+            <image:caption>Morning harvest of chemical-free vegetables at Vaagai Green Farm, Arakkonam.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>Vaagai Green Farm, Arakkonam</image:title>
+            <image:caption>The family land that has been farmed for three generations in Arakkonam, Tamil Nadu.</image:caption>
         </image:image>
         <image:image>
             <image:loc>https://vaagai-green-farm.vercel.app/images/logo-small.png</image:loc>
@@ -37,9 +57,75 @@
         </image:image>
     </url>
 
-    <!-- ========== ABOUT PAGE IMAGES (TA) ========== -->
+    <!-- Products / What We Grow (EN) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/products.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>Vaagai Green Farm, Arakkonam</image:title>
+            <image:caption>Seasonal vegetables, raw honey and flowers grown on the family farm in Arakkonam.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/aravindan-m-founder-vaagai-green-farm.jpg</image:loc>
+            <image:title>Aravindan M, the farmer behind every vegetable and jar of honey</image:title>
+            <image:caption>Aravindan M grows, picks and packs every product sold by Vaagai Green Farm.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/logo-small.png</image:loc>
+            <image:title>Vaagai Green Farm logo</image:title>
+            <image:caption>Vaagai Green Farm logo.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Contact / Farm Visit (EN) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/contact.html</loc>
+        <lastmod>2026-10-01</lastmod>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>Vaagai Green Farm, Arakkonam</image:title>
+            <image:caption>Call, WhatsApp or visit Vaagai Green Farm in Arakkonam, Tamil Nadu.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/aravindan-m-founder-vaagai-green-farm.jpg</image:loc>
+            <image:title>Aravindan M, the person who answers your message</image:title>
+            <image:caption>Aravindan M, founder of Vaagai Green Farm in Arakkonam, Tamil Nadu.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/logo-small.png</image:loc>
+            <image:title>Vaagai Green Farm logo</image:title>
+            <image:caption>Vaagai Green Farm logo.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- ===================== TAMIL PAGES (தமிழ்) ===================== -->
+
+    <!-- முகப்பு (Home TA) -->
+    <url>
+        <loc>https://vaagai-green-farm.vercel.app/ta/</loc>
+        <lastmod>2026-10-01</lastmod>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>வாகை பசுமை பண்ணை, அரக்கோணம்</image:title>
+            <image:caption>அரக்கோணத்தில் ரசாயன தெளிப்பு இல்லாமல் காய்கறிகள் வளர்க்கும் மூன்றாம் தலைமுறை குடும்ப பண்ணை.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/trust-farmer-harvest.jpg</image:loc>
+            <image:title>வாகை பசுமை பண்ணையில் ரசாயனமற்ற காய்கறிகள் அறுவடை</image:title>
+            <image:caption>வாகை பசுமை பண்ணையில் தினசரி அறுவடை, அரக்கோணம்.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/logo.png</image:loc>
+            <image:title>வாகை பசுமை பண்ணை லோகோ</image:title>
+            <image:caption>வாகை பசுமை பண்ணையின் அதிகாரப்பூர்வ லோகோ — அரக்கோணம், தமிழ்நாடு.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- எங்களைப் பற்றி (About TA) -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/ta/about.html</loc>
+        <lastmod>2026-10-01</lastmod>
         <image:image>
             <image:loc>https://vaagai-green-farm.vercel.app/images/aravindan-m-founder-vaagai-green-farm.jpg</image:loc>
             <image:title>அரவிந்தன் எம், வாகை பசுமை பண்ணையின் நிறுவனர்</image:title>
@@ -50,35 +136,57 @@
             <image:title>வாகை பசுமை பண்ணையில் இயற்கை விவசாயி அறுவடை</image:title>
             <image:caption>வாகை பசுமை பண்ணையில் இரசாயனமற்ற காய்கறிகள் கையால் அறுவடை செய்யப்படுகின்றன.</image:caption>
         </image:image>
-    </url>
-
-    <!-- ========== PRODUCTS PAGE IMAGES (EN) ========== -->
-    <url>
-        <loc>https://vaagai-green-farm.vercel.app/products.html</loc>
         <image:image>
-            <image:loc>https://vaagai-green-farm.vercel.app/images/farm-thumb-1.jpg</image:loc>
-            <image:title>Fresh chemical-free vegetables from Vaagai Green Farm</image:title>
-            <image:caption>Freshly harvested chemical-free vegetables from Vaagai Green Farm, Arakkonam.</image:caption>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>வாகை பசுமை பண்ணை, அரக்கோணம்</image:title>
+            <image:caption>மூன்று தலைமுறைகளாக பயிரிடப்படும் குடும்ப நிலம், அரக்கோணம்.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/logo-small.png</image:loc>
+            <image:title>வாகை பசுமை பண்ணை லோகோ</image:title>
+            <image:caption>வாகை பசுமை பண்ணை லோகோ.</image:caption>
         </image:image>
     </url>
 
-    <!-- ========== PRODUCTS PAGE IMAGES (TA) ========== -->
+    <!-- எங்கள் விளைபொருட்கள் (Products TA) -->
     <url>
         <loc>https://vaagai-green-farm.vercel.app/ta/products.html</loc>
+        <lastmod>2026-10-01</lastmod>
         <image:image>
-            <image:loc>https://vaagai-green-farm.vercel.app/images/farm-thumb-1.jpg</image:loc>
-            <image:title>வாகை பசுமை பண்ணையின் புதிய இரசாயனமற்ற காய்கறிகள்</image:title>
-            <image:caption>வாகை பசுமை பண்ணை, அரக்கோணத்தில் இருந்து புதிதாக அறுவடை செய்யப்பட்ட இரசாயனமற்ற காய்கறிகள்.</image:caption>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>வாகை பசுமை பண்ணை, அரக்கோணம்</image:title>
+            <image:caption>குடும்ப பண்ணையில் வளர்க்கப்படும் பருவகால காய்கறிகள், தூய தேன் மற்றும் மலர்கள்.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/aravindan-m-founder-vaagai-green-farm.jpg</image:loc>
+            <image:title>அரவிந்தன் எம், ஒவ்வொரு காய்கறியின் பின்னணியில் உள்ள விவசாயி</image:title>
+            <image:caption>வாகை பசுமை பண்ணை விற்கும் ஒவ்வொரு பொருளையும் அரவிந்தன் வளர்த்து, பறித்து, பொதியிடுகிறார்.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/logo-small.png</image:loc>
+            <image:title>வாகை பசுமை பண்ணை லோகோ</image:title>
+            <image:caption>வாகை பசுமை பண்ணை லோகோ.</image:caption>
         </image:image>
     </url>
 
-    <!-- ========== SOCIAL SHARING IMAGES ========== -->
+    <!-- தொடர்பு (Contact TA) -->
     <url>
-        <loc>https://vaagai-green-farm.vercel.app/</loc>
+        <loc>https://vaagai-green-farm.vercel.app/ta/contact.html</loc>
+        <lastmod>2026-10-01</lastmod>
         <image:image>
-            <image:loc>https://vaagai-green-farm.vercel.app/images/twitter-card.jpg</image:loc>
-            <image:title>Vaagai Green Farm — Natural farming in Arakkonam</image:title>
-            <image:caption>Vaagai Green Farm social card — third-generation family farm in Arakkonam, Tamil Nadu.</image:caption>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/hero-farm-overview.jpg</image:loc>
+            <image:title>வாகை பசுமை பண்ணை, அரக்கோணம்</image:title>
+            <image:caption>அரக்கோணத்தில் உள்ள வாகை பசுமை பண்ணையை அழைக்கவும், வாட்ஸ்அப் செய்யவும் அல்லது நேரில் வரவும்.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/aravindan-m-founder-vaagai-green-farm.jpg</image:loc>
+            <image:title>உங்கள் செய்திக்கு பதிலளிக்கும் அரவிந்தன் எம்</image:title>
+            <image:caption>அரவிந்தன் எம், வாகை பசுமை பண்ணையின் நிறுவனர், அரக்கோணம்.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://vaagai-green-farm.vercel.app/images/logo-small.png</image:loc>
+            <image:title>வாகை பசுமை பண்ணை லோகோ</image:title>
+            <image:caption>வாகை பசுமை பண்ணை லோகோ.</image:caption>
         </image:image>
     </url>
 
